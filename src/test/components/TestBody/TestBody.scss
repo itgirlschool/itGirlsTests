@@ -1,0 +1,170 @@
+@use '../../assets/mixins.scss' as mixins;
+@import "../../assets/vars";
+
+.test-body-container {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+
+  .test-body-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    width: 488px;
+    padding: 40px 30px;
+
+    border-radius: 30px;
+    border: 1px solid var(--text-input, $blueColor);
+    background: $testBodyBackground;
+    box-shadow: 4px 6px 16px 0 rgba(146, 213, 241, 0.08);
+
+    @media screen and (max-width: 480px) {
+      gap: 10px;
+      width: 80vw;
+      padding: 20px 15px;
+    }
+
+    .test-body-title {
+      margin-bottom: 30px;
+      @include mixins.font($bold, $font-18, $whiteColor);
+    }
+
+    .test-body-imagesBlock {
+      display: flex;
+      justify-content: center;
+
+      .question-image {
+        width: 80%;
+        height: 80%;
+        min-width: 270px;
+        max-width: 400px;
+      }
+    }
+
+    .test-body-questions-container {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+
+      width: 100%;
+
+      .test-body-question {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8px;
+        margin-top: 20px;
+
+        width: 100%;
+
+        @include mixins.font($light, $font-18, $blueColor);
+
+        @media screen and (max-width: 480px) {
+          @include mixins.font($light, $font-16, $blueColor);
+        }
+
+        .test-body-question-img {
+          appearance: none;
+          width: 25px;
+          height: 25px;
+          margin: 0 10px 0 0;
+          background-image: url("../../../assets/empty-circle.svg");
+          background-repeat: no-repeat;
+        }
+
+        .test-body-question-img:checked {
+          appearance: none;
+          width: 27px;
+          height: 27px;
+          margin: 0 10px 0 0;
+          background-image: url("../../../assets/full-circle.svg");
+          background-repeat: no-repeat;
+        }
+
+        .red-img:checked {
+          background-image: url("../../../assets/red-full-circle.svg");
+        }
+
+        .green-img:checked {
+          background-image: url("../../../assets/green-full-circle.svg");
+        }
+
+        .test-body-question-img:hover {
+          cursor: pointer;
+        }
+
+        .test-body-question-text {
+          width: 90%;
+          @media screen and (max-width: 480px) {
+            width: 250px;
+          }
+        }
+      }
+
+      .red {
+        @include mixins.font($light, $font-18, $redColor);
+
+        @media screen and (max-width: 480px) {
+          @include mixins.font($light, $font-16, $redColor);
+        }
+      }
+
+      .green {
+        @include mixins.font($light, $font-18, $greenColor);
+
+        @media screen and (max-width: 480px) {
+          @include mixins.font($light, $font-16, $greenColor);
+        }
+      }
+    }
+
+    .test-notes-wrapper {
+      margin: 5% auto;
+      padding: 0.5%;
+      max-width: 100%;
+      border: 1px solid $lazureColor;
+      border-radius: 0.625rem;
+      background: linear-gradient(
+                      rgba(255, 255, 255, 0.342) 20%,
+                      rgba(255, 255, 255, 0) 50%
+      ),
+      linear-gradient(
+                      to right,
+                      rgba(255, 255, 255, 0.151) 20%,
+                      rgba(255, 255, 255, 0) 60%
+      );
+
+      .test-notes {
+        color: $whiteColor;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        .test-notes__text {
+          margin: 0;
+          @include mixins.font($light, $font-14, $whiteColor)
+        }
+
+        .test-notes__img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+
+    .test-body-link-wrapper {
+      text-decoration: none;
+
+      .test-body-link {
+        @include mixins.button($light, $font-18, $colorGreenBtn, $whiteColor, $colorGreenBtnHover, $whiteColor, $borderBtn);
+      }
+    }
+
+    .test-body-button {
+      @include mixins.button($light, $font-18, $colorBlueBtn, $whiteColor, $colorBlueBtnHover, $whiteColor, $borderBtn);
+    }
+  }
+}

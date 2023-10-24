@@ -1,0 +1,238 @@
+{
+  "id": "2da04d62efd04fb095e676a0f3640e39",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "Контролируемым компонентом может быть только элемент формы ввода текста ",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "У контролируемых компонентов данные форм хранятся и обрабатываются в состоянии React",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "У контролируемых компонентов есть атрибут их текущего состояния и метод, вызывающийся при их изменении",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Контролируемые компоненты читают значения читают значения прямо из DOM через ref",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Выберите утверждения, относящиеся к контролируемым компонентам?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Да, их нужно всегда использовать вместе, PureComponent не заменяет метод shouldComponentUpdate()",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Да, желательно использовать вместе, так как shouldComponentUpdate() предполагает неглубокую проверку, изменения его props/state могут остаться проигнорированными",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Нет, метод shouldComponentUpdate не работает в PureComponent",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Нет, так как при использовании PureComponent отслеживание изменений происходит само собой",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Есть ли смысл использовать метод shouldComponentUpdate() в PureComponent?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Да, так как состояние изменяется",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Нет, так как значение count будет равно старой версии",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Будет ли перерисовываться данный компонент?   ",
+      "image": "/src/test/assets/images/image-test-28.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "Чекбокс будет контролируемым компонентом и будет отмечаться как выбранный по умолчанию",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Чекбокс будет контролируемым, но не будет отмечаться как выбранный по умолчанию",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Чекбокс будет неконтролируемым",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Чекбокс будет неконтролируемым без передачи обработчика onChange",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что будет, если чекбоксу не передать свойство '",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Он помогает сократить количество ререндеров в приложении поскольку вызов рендера произойдет, только если обнаружатся изменения в state или props компонента",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Он дает самый удобный способ добавления props по умолчанию",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Он обеспечивает отрисовку не только самого компонента, но и всех дочерних даже если не было изменения props/state",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Он делает глубокое сравнение объектов, поэтому его наследование оптимально для компонентов со сложной структурой данных",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "В чем главное преимущество использования PureComponent?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Компонент будет неуправляемым",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Компонент будет управляемым, defaultValue будет undefined",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Компонент будет управляемым, value будет получено из e.target.value",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Компонент будет одновременно управляемым и неуправляемым",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что будет, если компоненту в input передать метод onChange, но не передавать value?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Нельзя",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Можно, если в корневом теге в value передать массив и разрешить множественное отображение",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Можно путем передачи selected в нужные option",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Можно, только если подключить сторонние npm пакеты",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Можно ли из обычного select передать список с несколькими выбранными значениями (мультиселект)?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "React.isValidElement()",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "React.cloneElement()",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "React.Fragment()",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "React.memo()",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какой хук играет аналогичную роль React.PureComponent?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Компонент будет контролируемым, но на каждое изменение в input не будет происходить извлечение содержимого e.target.value",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Форма будет контролируемой",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Компонент станет неконтролируемым",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Компонент будет одновременно контролируемым и нет",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что будет, если компоненту input передать value, но не передать метод onChange?",
+      "image": null
+    }
+  ]
+}

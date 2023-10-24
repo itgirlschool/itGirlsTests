@@ -1,0 +1,235 @@
+{
+  "id": "6392592920074cb394474fa5052b8a81",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "Обязательно в любом случае",
+          "isValid": false,
+          "comment": "Если мы используем отдельные react-компоненты на странице, то достаточно добавить три <script>-тега перед </body>."
+        },
+        {
+          "title": "Обязательно, если мы создаём React-приложение",
+          "isValid": true,
+          "comment": "Верно! Для создание React-приложения используй команду npx create-react-app my-app"
+        }
+      ],
+      "type": "solo",
+      "title": "Обязательно ли скачивать и устанавливать какие-то библиотеки для начала работы с ReactJS?"
+    },
+    {
+      "options": [
+        {
+          "title": "Обрабатывает и на стороне клиента, и сервера",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Повышает производительность приложений с помощью Virtual DOM",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "JSX  создаёт код, лёгкий для чтения и записи",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Легко выполняет интеграцию с другими фреймворками (Angular, BackboneJS), так как является библиотекой с открытым исходным кодом",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Все вышеперечисленные",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Перечислите плюсы SPA-приложения"
+    },
+    {
+      "options": [
+        {
+          "title": "Процесс обучения может быть медленным",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Является только уровнем просмотра, всё ещё есть необходимость подключать код для AJAX-запросов, событий и т.д.",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Сама библиотека довольно большая",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Все вышеперечисленные",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Перечислите минусы SPA-приложения"
+    },
+    {
+      "options": [
+        {
+          "title": "Установить пакет в каталог глобальных node-пакетов, инициализировать React-приложение",
+          "isValid": true,
+          "comment": "Верно! Используй команды npm install react react-dom и npx create-react-app my-app"
+        },
+        {
+          "title": "Установить Typescript, установить все зависимости для проекта",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Создать в текстовом редакторе файл package.json, перенести его в среду разработки",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как создать React-приложение?"
+    },
+    {
+      "options": [
+        {
+          "title": "Библиотека для создания интерфейсов взаимодействия",
+          "isValid": true,
+          "comment": "Верно! React - это библиотека для создания пользовательских интерфейсов. В процессе создания приложения можно выбирать необходимые пакеты и инстpументы"
+        },
+        {
+          "title": "Фреймворк на стороне сервера",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Фреймворк пользовательского интерфейса",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что такое ReactJS?"
+    },
+    {
+      "options": [
+        {
+          "title": "Django, Laravel, Flask",
+          "isValid": false,
+          "comment": "Это бэкенд-фреймворки"
+        },
+        {
+          "title": "Vue, Angular, Ember, Backbone.js",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Play, CakePHP, Fiber Framework",
+          "isValid": false,
+          "comment": "Это бэкенд-фреймворки"
+        }
+      ],
+      "type": "solo",
+      "title": "Какие веб-фронтенд фреймворки вы знаете?"
+    },
+    {
+      "options": [
+        {
+          "title": "export default Component",
+          "isValid": false,
+          "comment": "Эта команда используется для экспорта компонента из файла или модуля"
+        },
+        {
+          "title": "@Component",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "import { Component } from ‘…’",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какой командой можно добавить библиотеку или компонент в свой файл?"
+    },
+    {
+      "options": [
+        {
+          "title": "chart.js",
+          "isValid": false,
+          "comment": "Это js-библиотека для создания графиков и диаграмм"
+        },
+        {
+          "title": "react-day-picker ",
+          "isValid": true,
+          "comment": "Верно! Это компонент выбора даты для React"
+        },
+        {
+          "title": "react-hook-form",
+          "isValid": true,
+          "comment": "Верно! Эта библиотека упрощает создание и обработку форм в React-приложениях"
+        },
+        {
+          "title": "validate-js",
+          "isValid": false,
+          "comment": "Это js-библиотека для валидации форм"
+        },
+        {
+          "title": "framer-motion",
+          "isValid": true,
+          "comment": "Верно! Это билиотека для анимации React-приложений"
+        }
+      ],
+      "type": "multi",
+      "title": "Укажите три внешних React-компонента, которые вам могут пригодиться в будущем"
+    },
+    {
+      "options": [
+        {
+          "title": "src/index.js",
+          "isValid": true,
+          "comment": "Верно! Это точка входа для нашего приложения, куда мы импортируем все модули и необходимые ресурсы. Именно здесь отражаются все изменения"
+        },
+        {
+          "title": "public/index.html",
+          "isValid": false,
+          "comment": "React внедряет код в этот файл, чтобы браузер мог его запустить, а все изменения делаются в index.js"
+        },
+        {
+          "title": "src/App.js",
+          "isValid": false,
+          "comment": "Это всего лишь один из компонентов, который может называться и по-другому"
+        }
+      ],
+      "type": "solo",
+      "title": "Какой основной файл SPA-проекта, где мы делаем изменения?"
+    },
+    {
+      "options": [
+        {
+          "title": "Содержит файл HTML, npm start",
+          "isValid": false,
+          "comment": "Эта команда нужна для запуска проекта на локальном хостинге"
+        },
+        {
+          "title": "Содержит все готовые файлы при сборке приложения для продакшн-окружения, npm build",
+          "isValid": true,
+          "comment": "Верно! Затем можно скопировать файлы из папки build на сервер хостинг-провайдера"
+        },
+        {
+          "title": "Тут лежит основной код проекта, npm deploy",
+          "isValid": false,
+          "comment": "Эту команду можно настроить для выгрузки приложения на продакшн, например, на github-pages"
+        }
+      ],
+      "type": "solo",
+      "title": "Зачем нужна папка build, и какой командой мы генерируем её содержимое?"
+    }
+  ]
+}

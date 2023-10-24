@@ -1,0 +1,187 @@
+{
+  "id": "8b5e487c14ee40398b5c450510e29891",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "Нет, так как будет потеря в производительности. ",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Можно создать только один контекст в одном приложении, и не более.",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Можно, но в таком случае, создать нужно будет несколько независимых компонентов.",
+          "isValid": true,
+          "comment": "Чтобы последующие рендеры (связанные с контекстом) были быстрыми, React делает каждого потребителя контекста отдельным компонентом в дереве."
+        },
+        {
+          "title": "Нет, будет затруднительно получить данные.",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Можно ли создать несколько контекстов в одном приложении?"
+    },
+    {
+      "options": [
+        {
+          "title": "Да, при добавлении в контекст функции, которая позволит изменить значение этого контекста.",
+          "isValid": true,
+          "comment": "Довольно часто необходимо изменить контекст из компонента, который находится где-то глубоко в дереве компонентов."
+        },
+        {
+          "title": "Да, через подписку на Provider.",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Нет, невозможно повлиять на контекст из вложенных компонентов. ",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Да, с помощью функции, созданной во вложенном компоненте. ",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Можем ли мы влиять на контекст из вложенных компонентов?"
+    },
+    {
+      "options": [
+        {
+          "title": "Добавить в контекст функцию компонента",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Прописать внутри компонента ThemeContext.Consumer",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Созданием объекта Context",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Обернуть компонент ",
+          "isValid": true,
+          "comment": "В классовых компонентах, где это необходимо, добавляется ThemeContext.Consumer. В функциональных, значения можно получить, используя хук useContext."
+        }
+      ],
+      "type": "solo",
+      "title": "Как выбрать компонент, в котором будет определяться контекст?"
+    },
+    {
+      "options": [
+        {
+          "title": "componentDidMount()",
+          "isValid": true,
+          "comment": "К этому моменту компонент уже смонтирован, мы не получим потери производительности."
+        },
+        {
+          "title": "componentDidUpdate()",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "componentWillUnmount()",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "shouldComponentUpdate()",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "На каком этапе жизненного цикла компонента лучше всего запросить данные с сервера?"
+    },
+    {
+      "options": [
+        {
+          "title": "401 (ошибка авторизации)",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "403 (запрещено)",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "400 (плохой запрос)",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "404 (не найдено)",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "В каких случаях Fetch API вернет сообщение об ошибке"
+    },
+    {
+      "options": [
+        {
+          "title": "XMLHttpRequest",
+          "isValid": true,
+          "comment": "устаревший метод"
+        },
+        {
+          "title": "Axios",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "GraphQL",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Provider",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Каким еще способом можно делать запрос к АPI кроме fetch?"
+    },
+    {
+      "options": [
+        {
+          "title": "Чтобы обеспечить безопасность запросов к другим источникам",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Для быстрого доступа к запрашиваемым данным ",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Для повышения производительности ",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Никакой функции он не выполняет, устаревший механизм запроса ",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Зачем нужен CORS?"
+    }
+  ]
+}

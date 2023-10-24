@@ -1,0 +1,229 @@
+{
+  "id": "40e6571d49fc40219e7c2bb829455d5c",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "SVG",
+          "isValid": false,
+          "comment": "не предназначен для фотографий. Это векторный формат "
+        },
+        {
+          "title": "JPEG или JPG",
+          "isValid": true,
+          "comment": "верно! для больших фото лучше всего подойдет этот формат"
+        },
+        {
+          "title": "GIF",
+          "isValid": false,
+          "comment": "этот формат только для анимаций"
+        },
+        {
+          "title": "PNG",
+          "isValid": false,
+          "comment": "Лучше подходит для иконок, иллюстраций, схем"
+        }
+      ],
+      "type": "solo",
+      "title": "Какой формат картинки лучше всего подходит для большого фото?"
+    },
+    {
+      "options": [
+        {
+          "title": "Хранит не само изображение, а инструкцию по его построению",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Только 256 цветов и только для анимированных картинок",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Не теряет качество при сжатии фотографии",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Не поддерживает прозрачность ",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "В чем особенность формата SVG?"
+    },
+    {
+      "options": [
+        {
+          "title": "JPEG или JPG",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "GIF",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "PNG",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "SVG",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какой формат картинки идеально подходит для логотипа?"
+    },
+    {
+      "options": [
+        {
+          "title": "SVG",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "GIF",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "PNG",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "JPEG или JPG",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Какие форматы поддерживают анимацию?(2 варианта)"
+    },
+    {
+      "options": [
+        {
+          "title": "просто словами ‘green’, ‘red’ итд",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "#000000 двоичным кодом",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "#000000 16-ным кодом",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "тег background-сolor и прописываем словами",
+          "isValid": false,
+          "comment": "style background-color это атрибут, а не тег"
+        },
+        {
+          "title": "RGB или RGBA",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Какими способами можно указывать цвет (3 варианта)?"
+    },
+    {
+      "options": [
+        {
+          "title": "c помощью background: linear-gradient",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "с помощью свойства gradient",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "с помощью img: radial-gradient",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Самостоятельно разберитесь как можно задать цвет в виде градиента?"
+    },
+    {
+      "options": [
+        {
+          "title": "с помощью последних двух букв #FFFFFFFF",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "с помощью RGBA",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "с помощью RGB",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "прописать значение color: transparent",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Как можно задавать прозрачность для блока?(2 варианта)"
+    },
+    {
+      "options": [
+        {
+          "title": "Относительные пути",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Абсолютные пути",
+          "isValid": false,
+          "comment": "это будет работать только для программиста в процессе разработки"
+        },
+        {
+          "title": "Интернет-пути",
+          "isValid": false,
+          "comment": "ссылка в интернете может в любой момент стать недействительной - и картинка исчезнет"
+        }
+      ],
+      "type": "solo",
+      "title": " Какой способ подключения файлов самый лучший?"
+    },
+    {
+      "options": [
+        {
+          "title": "использовать vw и vh",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "задать размер в px",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "задать размер в % относительно родительского элемента",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как сделать картинку на 45% размера экрана?"
+    }
+  ]
+}

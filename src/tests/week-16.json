@@ -1,0 +1,195 @@
+{
+  "id": "18471a94573f4d54b97b2d6bd52dc4ec",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "Для представления данных пользователя в виде таблицы",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Для сбора данных пользователя и отправки их web-браузеру",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Для чего служат HTML-формы?"
+    },
+    {
+      "options": [
+        {
+          "title": "Нет",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Да",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Восстановить исходные значения в полях формы можно только нажатием кнопки сброса?"
+    },
+    {
+      "options": [
+        {
+          "title": "Нет",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Да",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Отправить данные на сервер можно только нажатием на кнопку отправки?"
+    },
+    {
+      "options": [
+        {
+          "title": "document.forms.myforms",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "document.forms.value",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "document.forms.form['myform']",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "На форму с именем myform можно ссылаться с помощью.."
+    },
+    {
+      "options": [
+        {
+          "title": "<input type=\"button\">",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "<input type=\"text\">",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "<input type=\"reset\">",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Каким типом задаётся поле ввода в форме текста?"
+    },
+    {
+      "options": [
+        {
+          "title": "Данные с формы на сервер можно передать двумя методами — GET POST",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Данные с формы на сервер можно передать тремя методами — GET, POST и PATCH",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Данные с формы на сервер можно передать методом GET",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Каким способом можно отправить данные из формы на сервер?"
+    },
+    {
+      "options": [
+        {
+          "title": "Да",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Нет",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Элементы формы должны быть обязательно заключены в теги <form>?\n"
+    },
+    {
+      "options": [
+        {
+          "title": "Методом preventDefault()",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Методом stopPropagination()",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Методом cancelEvent()",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "При передаче формы происходит событие “submit”. Как можно остановить передачу данных?"
+    },
+    {
+      "options": [
+        {
+          "title": "Значение было изменено",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "При каждом изменении значения",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Произошло действие по вырезанию/копированию/вставке",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Событие change срабатывает когда …"
+    },
+    {
+      "options": [
+        {
+          "title": "Регулярные выражения состоят из шаблона и необязательных флагов: g, i, m, u, s, y",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Регулярные выражения состоят из шаблона и обязательных флагов: g, i",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Регулярные выражения состоят из необязательного шаблона и обязательных флагов: g, i, m, u, s, y",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Из чего состоят регулярные выражения?"
+    }
+  ]
+}

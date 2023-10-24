@@ -1,0 +1,211 @@
+{
+  "id": "e7bc9ea63c2640188f12e36938d9b44e",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "Единица измерения ширины, которая рассчитывается от родительского grid - контейнера",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Единица измерения высоты grid-элемента, которая вычисляется в зависимости от размера экрана",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Единица измерения, которая рассчитывается, исходя из количества доступного пространства grid-контейнера",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что за единица измерения - fr?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "grid-templates-columns:repeat(5, 1fr)",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "grid-templates-columns:20px, 20px, 20px, 20px, 20px",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "grid-templates-rows:20%, 20%, 20%, 20%, 20%",
+          "isValid": false,
+          "comment": "rows это не колонки, а строки"
+        },
+        {
+          "title": "grid-templates-columns: 1fr, 1fr, 1fr, 1fr, 1fr",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Как можно задать грид с 5 колонками шириной по 20%? (Выбрать 2 варианта)",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "auto-fill заполняет все пустое пространство в контейнере элементами и растягивает их при необходимости, auto-fit также растягивает дочерние элементы на весь контейнер, но только по высоте",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "auto-fill помещает повторяющиеся элементы в один ряд, непоместившихся на другую строку, не занимая пустое пространство, auto-fit почти также, только пустое пространство будет схлопываться и растягивать элементы",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "auto-fit помещает одинаковые элементы в один ряд, не заполняя пустое пространство, следующие элементы переносятся на другую строку, auto-fill не переносит на следующую строку, а растягивает элементы",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что такое auto-fill и auto-fit?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "display: grid;                                               grid-template-columns: 100px, 30%, 1fr;                                                                   grid-template-rows: 200px, 100px;",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "display:grid;                                               grid-template-rows:100px, 30%, 350px;                                                            grid-template-columns: 200px, 100px",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "display: flex;                                                              grid-template-columns: 100px, 30%;                    grid-template-rows: 200px, 100px;",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как сделать табличку? Параметры: первая колонка 100 пикселей, вторая строчка 30%. Первая строчка высота 200 пикселей, вторая строчка - 100 пикселей.",
+      "image": "/src/test/assets/images/images-test-6.png"
+    },
+    {
+      "options": [
+        {
+          "title": "justify-items: space-between",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "grid-template-columns: 20px, 10px, 20px",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "align-items: center",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "justify-content: space-between",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "justify-content: space-around",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как сделать такое выравнивание в грид-контейнере?",
+      "image": "/src/test/assets/images/images2-test-6.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "Это объединенные колонки в один контейнер, задается свойством grid-area: 1/4, где указывается индекс первой колонки и последней ",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Это пространство внутри grid-контейнера, которое может содержать в себе несколько grid-элементов, grid-area:1/3/4/2;",
+          "isValid": true,
+          "comment": "первая цифра-grid-row-start, вторая - grid-column-start, третья - grid-row-end, последняя - grid-column-end"
+        },
+        {
+          "title": "Это grid-контейнер, которому можно задать определенные размеры и определенное количество grid-элементов",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что такое и как задается grid-area?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "auto-space",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "auto-fill",
+          "isValid": false,
+          "comment": "свободное пространство не схлопывается, как в auto-fit"
+        },
+        {
+          "title": "auto-fit",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "grid-area",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "justify-content: stretch",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Каким свойством можно задать такое поведение элементов? (Если не отображается см. п.1 доп.материалов)",
+      "image": "/src/test/assets/images/images3-test-6.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "grid-template-columns: 12*fr;",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "grid-template-rows: repeat(12, 1fr);",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "grid-template-columns: repeat(1fr, 12);",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "grid-template-columns:repeat(12, 20px);",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как проще всего задать 12 одинаковых по ширине колонок?",
+      "image": null
+    }
+  ]
+}

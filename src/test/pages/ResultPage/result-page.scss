@@ -1,0 +1,112 @@
+@import "../../assets/vars";
+
+.result_container {
+  margin: 0 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $family;
+
+  .result_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    background-image: url("../../../assets/MaskGroup.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 488px;
+    width: 100%;
+    color: white;
+    min-height: 904px;
+  }
+
+  .render_success {
+    font-size: 18px;
+    font-weight: 700;
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
+
+    .cat {
+      width: 150px;
+      height: 150px;
+    }
+
+    .title_success {
+      margin-bottom: 60px;
+    }
+  }
+
+  .test-result__counter {
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+    max-height: 250px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .wr_button-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    button {
+      background: linear-gradient(180deg, #FAA0A0 0%, #F74135 16.67%, #F33F33 43.23%, #CC524A 94.27%, #E16D6D 100%);
+      box-shadow: 0px 2px 2px 0px rgba(133, 10, 10, 0.75);
+      border-radius: 50px;
+      max-width: 254px;
+      width: 100%;
+      min-height: 61px;
+      margin-bottom: 30px;
+      font-size: 18px;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn_see-results {
+      background: linear-gradient(180deg, #CCEF82 0%, #469A29 94.27%, #7CBC55 100%);
+      box-shadow: 0 2px 2px 0 rgba(31, 94, 7, 0.75);
+
+    }
+  }
+}
+@media (max-width:560px){
+  .result_container{
+    .result_content{
+      justify-content: center;
+      background-position: center;
+      min-height: 100%;
+      .render_success{
+        font-size: 14px;
+        .cat{
+          width: 100px;
+          height: 100px;
+        }
+      }
+      .test-result__counter{
+        width: 180px;
+        height: 180px;
+      }
+    }
+    .wr_button-result{
+      button{
+        max-width: 154px;
+        min-height: 45px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+
+
+

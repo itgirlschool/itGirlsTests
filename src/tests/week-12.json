@@ -1,0 +1,229 @@
+{
+  "id": "0827bc02d72242b3999e116dbbd6970f",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "Одинарные",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Обратные",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Двойные",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Квадратные",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Фигурные",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Какие кавычки можно использовать для создания строк в JS?"
+    },
+    {
+      "options": [
+        {
+          "title": "substr()",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "IndexOf()",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "findStr()",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "search()",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Какими методами можно найти подстроку в строке?"
+    },
+    {
+      "options": [
+        {
+          "title": "Заключение строк в двойные кавычки",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Перенос на новую строку",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Преобразование в верхний регистр",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Самостоятельно разберитесь, зачем нужен специальный символ \\n?"
+    },
+    {
+      "options": [
+        {
+          "title": "findNum(”120р”)",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "str.substr(/[0-9]/);",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "str.replace(/[^0-9]/g,””)",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Number(”120р”)",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как выделить из строки с денежной суммой (например, 120р. или 99€) только цифры, т.е. 120 и 99?"
+    },
+    {
+      "options": [
+        {
+          "title": "(2,3): bcd",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "(2,3): cde",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "cde",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Uncaught SyntaxError",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что выведет в консоль?\nconst str = \"abcdefghij\";\nconsole.log(\"(2,3): \"    + str.substr(2,3));"
+    },
+    {
+      "options": [
+        {
+          "title": "Math.ceil",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Math.floor",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Math.round",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какой из вариантов округления делает это по математическим правилам?"
+    },
+    {
+      "options": [
+        {
+          "title": "Math.random(1, 100)",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Math.random() * 10",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Math.random() * 101",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Math.random(*100)",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как сгенерировать случайное число от 1 до 100?"
+    },
+    {
+      "options": [
+        {
+          "title": "'розы такие красивые’",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "'розы такие розы’",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "'красивые такие розы’",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "'красивые такие красивые’",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Каким будет результат в приведенном ниже фрагменте кода?\nlet str = \"розы такие розы\";\nstr.replace(\"розы\",\"красивые\")"
+    },
+    {
+      "options": [
+        {
+          "title": "The string length is 6",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Uncaught SyntaxError",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "The string length is 5",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что выведет в консоль?\nconst x=\"Солнце\";\nconsole.log(\"The string length is \" + x.length)"
+    }
+  ]
+}

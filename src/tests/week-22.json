@@ -1,0 +1,272 @@
+{
+  "id": "8b7b1f59da27476f8110c48a94a025c6",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "маленькие, повторно используемые части кода, которые возвращают React-элементы для отображения на странице",
+          "isValid": false,
+          "comment": "это React-компоненты"
+        },
+        {
+          "title": "составляющие блоки React-приложений",
+          "isValid": false,
+          "comment": "это React-элементы"
+        },
+        {
+          "title": "входные данные React-компонентов, передаваемые от родительского компонента дочернему компоненту",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "настраиваемые функции, которые выполняются на различных этапах жизни компонента",
+          "isValid": false,
+          "comment": "это методы жизненного цикла"
+        }
+      ],
+      "type": "solo",
+      "title": "Props - это",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Нет, только в классовых компонентах",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Можно использовать",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Можно ли использовать props в функциональных компонентах?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Вместо атрибута \"class\" в JSX используется \"className\"",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "В JSX вам нужен тег script или внешний файл JavaScript для реализации JavaScript:{...}",
+          "isValid": false,
+          "comment": "в HTML нужен тег script или внешний файл JavaScript для реализации JavaScript:{...}"
+        },
+        {
+          "title": "Вместо атрибута \"className\" в JSX используется \"class\"",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Чем отличается JSX от HTML?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Можно использовать, только если внутри классовые компоненты",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Нельзя использовать",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "JSX не является обязательным для работы с React",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Можно использовать только если внутри функциональные компоненты",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Можно ли использовать React без JSX?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Чтобы вывести (или не вывести) компонент по какому-либо условию",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Позволяют создавать динамические компоненты",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Позволяют выполнить какие-то действия при изменении компонента",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Проверяет код во время компиляции, а не во время выполнения.",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Для чего нам нужны свойства (props) компонентов?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Вместо <React.Fragment> можно обернуть код в <ul></ul>",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Вместо <React.Fragment> можно обернуть код в <Fragment ></Fragment>",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Вместо <React.Fragment> можно обернуть код в <ListItem ></ListItem >",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Вместо <React.Fragment> можно обернуть код в пустые скобки <></>",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "В примере с CardList чем можно было бы заменить <React.Fragment>",
+      "image": "/src/test/assets/images/image-test-22.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "Нет, нужно обязательно использовать и классовые компоненты",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Можно, если это простое приложение(без ссылок, изменения и сохранения данных введенных пользователем и т.п)",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Все, что можно сделать с помощью компонентов класса, можно сделать и с помощью функциональных компонентов.",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Можно ли полностью описать приложение, используя только функциональные компоненты?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Export default",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Render",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Props",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Export ",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какой командой мы делаем экспорт компонента для возможности его использования в других местах приложения?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Свойства для работы со значениями, состояния для работы с функциями",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Состояния для работы со значениями, свойства для работы с функциями",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Состояния можно изменить, свойства нельзя",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Чем свойства отличаются от состояний?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "ReactComponent",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "ReactJS.Component",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "React.Component",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "От какого класса идет наследование всех компонентов?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "render()",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "reduce()",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "map()",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "filter()",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какой командой можно сгенерировать разметку/компоненты на основе заранее заданного массива элементов?",
+      "image": null
+    }
+  ]
+}

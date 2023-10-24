@@ -1,0 +1,255 @@
+{
+  "id": "6e660a237953475d871f985ea4c84ce1",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "variable Num;",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "let num;",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "v Num;",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "$Num;",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как объявляется переменная в JavaScript?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "msg(’Hello World!’)",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "alertBox(’Hello World!’)",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "msgBox(’Hello World!’);",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "console.log(’Hello World!’);",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как можно вывести сообщение “Hello World!” с помощью JavaScript?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "hello 1\nhello “name”\nhello Ilya",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "hello “1”\nhello “name”\nhello “Ilya”",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "hello 1\nhello Ilya\nhello Ilya",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что выведет скрипт?",
+      "image": "/src/test/assets/images/image-test-9.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "7",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "5",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "2",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "undefined",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какое значение будет в z?\nlet x = 5;         \nlet y = 2;        \nlet z = x + y;\nconsole.log(z);",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "<#include ‘sample1.js’>",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "<script src=’sample1.js’>",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "<script name=’sample1.js’>",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "<script href=’sample1.js’>",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как правильно подключить внешний скрипт?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Нет",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Да",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Учитывается ли регистр в JavaScript?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "1",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "NaN",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "true",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "false",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что вернет следующий код: Boolean (10 > 9)",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "28",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "underfined",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "true",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что вернёт код?\nfunction showX(x)\n{ \n\treturn x;\n}\nconsole.log(showX(28));",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "5",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "3",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "underfined",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "-7",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что будет в x?\nx = 5; \nx -= 2;\nconsole.log(x);",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "X",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "=",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "-",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "*",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какой оператор используется для присвоения значения переменной?",
+      "image": null
+    }
+  ]
+}

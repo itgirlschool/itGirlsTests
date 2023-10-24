@@ -1,0 +1,195 @@
+{
+  "id": "01d58dcc26e44cddb7a55d53a7c81e4a",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "Оба ответа верные",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Пропускает текущую итерацию",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Прерывает выполнение скрипта",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что делает ключевое слово continue внутри цикла?"
+    },
+    {
+      "options": [
+        {
+          "title": "Правда",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Ложь",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Ключевое слово while повторяет выполнение цикла до тех пор, пока указанное условие не станет ложным. Правда или ложь?"
+    },
+    {
+      "options": [
+        {
+          "title": "Ложь",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Правда",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Третий оператор цикла for всегда должен быть инкрементом (++). Правда или ложь?"
+    },
+    {
+      "options": [
+        {
+          "title": "Выполняется бесконечно, так как не имеет условий для прекращения",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Проверяет условие после каждой итерации",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Проверяет условие перед каждой итерацией",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что делает цикл for(;;)?"
+    },
+    {
+      "options": [
+        {
+          "title": "2",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "0 1 2",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "1 2",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что выведется в консоли? \n\nlet i = 0; while (i<3) \n{console.log(i); i++;}"
+    },
+    {
+      "options": [
+        {
+          "title": "Ложь",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Правда",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "При ошибках в написании логики программы, циклы while и for могут выполняться бесконечно.\nПравда или ложь?"
+    },
+    {
+      "options": [
+        {
+          "title": "Нет способа сделать это",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Использовать do..while",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Указать условие",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Как сделать, чтобы цикл while выполнился хотя бы один раз?"
+    },
+    {
+      "options": [
+        {
+          "title": "hvatit",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "stop",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "break",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как можно принудительно остановить выполнение цикла?"
+    },
+    {
+      "options": [
+        {
+          "title": "5",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "4",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "0",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Сколько раз выполнится цикл?\n\nlet i = 5;\nfor (; i < 5; i++) {\nconsole.log(i);\n}"
+    },
+    {
+      "options": [
+        {
+          "title": "Код не верный",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Код верный",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Верный или не верный код ниже?\n\nlet i = 5;\nfor (i < 5; i++) {\nconsole.log(i);\n}"
+    }
+  ]
+}

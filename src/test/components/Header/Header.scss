@@ -1,0 +1,39 @@
+@import "../../assets/vars";
+
+@font-face {
+  font-family: 'Rubik';
+  src: url(../../assets/fonts/rubik-v14-latin_cyrillic-700.woff) format('opentype');
+}
+
+@mixin font($weight, $size, $color) {
+  font-weight: $weight;
+  font-size: $size;
+  font-family: $family;
+  color: $color;
+}
+
+.test-header-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1920px;
+  padding: 43px 80px;
+
+  @media screen and (max-width: 480px) {
+    padding: 23px 43px;
+  }
+
+  .test-header-counter {
+    @include font($light, $font-18, $whiteColor);
+
+    @media screen and (min-width: 769px) and (max-width: 1279px) {
+      @include font($light, $font-20, $whiteColor);
+    }
+    @media screen and (min-width: 1920px) {
+      @include font($light, $font-24, $whiteColor);
+    }
+  }
+}
+
+
+

@@ -1,0 +1,161 @@
+{
+    "id": "92f0172793284976a22affda7f2fdb25",
+    "questions": [
+        {
+            "options": [
+                {
+                    "title": "Это дополнительное свойство внутри тега",
+                    "isValid": true,
+                    "comment": "верно! Внутри тега можно подключать атрибуты, которое влияет на параметры тега"
+                },
+                {
+                    "title": "Это специальный код для создания элементов веб-страницы",
+                    "isValid": false,
+                    "comment": "Это определение тега, а не атрибута"
+                },
+                {
+                    "title": "Логическое создание блоков на странице",
+                    "isValid": false,
+                    "comment": "а это про тег <div>"
+                },
+                {
+                    "title": "Небольшие подсказки для того, как использовать сами теги",
+                    "isValid": false,
+                    "comment": ""
+                }
+            ],
+            "type": "solo",
+            "title": "Что такое атрибут тега?"
+        },
+        {
+            "options": [
+                {
+                    "title": "put, post, update",
+                    "isValid": false,
+                    "comment": ""
+                },
+                {
+                    "title": "hide, try, catch",
+                    "isValid": false,
+                    "comment": ""
+                },
+                {
+                    "title": "span, div, h1, h2",
+                    "isValid": false,
+                    "comment": ""
+                },
+                {
+                    "title": "style, class, src, alt",
+                    "isValid": true,
+                    "comment": ""
+                }
+            ],
+            "type": "solo",
+            "title": "Какие есть атрибуты у тега?"
+        },
+        {
+            "options": [
+                {
+                    "title": "Чтобы выделять текст жирным шрифтом",
+                    "isValid": false,
+                    "comment": ""
+                },
+                {
+                    "title": "Для логической разбивки сайта на блоки",
+                    "isValid": false,
+                    "comment": ""
+                },
+                {
+                    "title": "Для подключения картинки",
+                    "isValid": false,
+                    "comment": ""
+                },
+                {
+                    "title": "Вынести небольшой текст без переноса в блок",
+                    "isValid": true,
+                    "comment": ""
+                }
+            ],
+            "type": "solo",
+            "title": "Зачем нужен тег span?"
+        },
+        {
+            "options": [
+                {
+                    "title": "через <p>",
+                    "isValid": false,
+                    "comment": ""
+                },
+                {
+                    "title": "с помощью <img>",
+                    "isValid": true,
+                    "comment": ""
+                },
+                {
+                    "title": "с помощью <span>",
+                    "isValid": false,
+                    "comment": ""
+                },
+                {
+                    "title": "через <nav>",
+                    "isValid": false,
+                    "comment": ""
+                }
+            ],
+            "type": "solo",
+            "title": "Как добавить иконку?"
+        },
+        {
+            "options": [
+                {
+                    "title": "<ol> <li>",
+                    "isValid": false,
+                    "comment": ""
+                },
+                {
+                    "title": "<ul> <p>",
+                    "isValid": false,
+                    "comment": ""
+                },
+                {
+                    "title": "<ul> <li>",
+                    "isValid": true,
+                    "comment": ""
+                },
+                {
+                    "title": "<span><p>",
+                    "isValid": false,
+                    "comment": ""
+                }
+            ],
+            "type": "solo",
+            "title": "Как сделать маркированный список?"
+        },
+        {
+            "options": [
+                {
+                    "title": "<div>",
+                    "isValid": false,
+                    "comment": ""
+                },
+                {
+                    "title": "<b>",
+                    "isValid": true,
+                    "comment": ""
+                },
+                {
+                    "title": "<span>",
+                    "isValid": false,
+                    "comment": ""
+                },
+                {
+                    "title": "<p>",
+                    "isValid": false,
+                    "comment": ""
+                }
+            ],
+            "type": "solo",
+            "title": "Как выделить слово жирным шрифтом?"
+        }
+    ]
+}

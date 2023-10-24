@@ -1,0 +1,201 @@
+{
+  "id": "0cb628a85e2b4bfc91428fef88ed74a3",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "{<About />}",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "{<Users />}",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "{<Home />}",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Если в данном примере изменить порядок Route таким образом. То какой компонент будет отрисован по адресу /users?",
+      "image": "/src/test/assets/images/image-test-26.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "Страница пользователя {number}",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Моя личная страница",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "12345",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какое сообщение появится на экране по адресу ",
+      "image": "/src/test/assets/images/image2-test-26.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "Массив текущего элемента",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Значение по умолчанию — ",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Значение текущего элемента",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Индекс массива текущего элемента",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какой второй параметр принимает метод map?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "{shoes.map((item.price <50, index)=> return (…..)})}",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "{shoes.filter(shoes => shoes.price <50).map((item, index)=> return (…..)})}",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "{shoes.filter(index => index.price <50).map((item, index)=> return (…..)})}",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "{shoes.map((item <50, index)=> return (…..)})}",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как бы вы подошли к решению задачи по выводу компонентом <CardList> только тех экземпляров компонента <Card>, цена которых не превышает заданную(Например, 50$)?",
+      "image": "/src/test/assets/images/image3-test-26.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "<Route path='/user/filter' element={<User />}/>",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "<Route path='/user:filter' element={<User />}/>",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "<Route path='/user/:filter' element={<User />}/>",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "<Route path='/filter' element={<User />}/>",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как задать параметр в пути? Например, ",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Element будет работать только, когда указано exact path. \n Children будет отображаться только, когда указано path",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Children будет работать только, когда удовлетворится сопоставление в path. \nElement будет всегда отображаться  - независимо от того сопоставляется ли path или нет",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Element будет работать только, когда удовлетворится сопоставление в path. \n Children будет всегда отображаться  - независимо от того сопоставляется ли path или нет",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какая разница между element и children в указании роутера?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Параметр отключает частичное сравнение Route и гарантирует, что он возвращает route только в том случае, если path точно совпадает с текущим URL-адресом",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Для ускорения написания кода этот параметр включает частичное сравнение Route и он возвращает route даже если path не точно совпадает с текущим URL-адресом, чтобы в случае ошибки в path, всё равно можно было перейти на нужный URL-адрес",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "С помощью exact можно передать дополнительный параметр в path",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Зачем нужен exact?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "const handleClick = () => {history(\"/login\");}",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "const handleClick = () => {history.push(\"/login\");}",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "const handleClick = (history) => {push(\"/login\");}",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "const handleClick = () => {push.history(\"/login\");}",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как можно сделать перенаправление на другую страницу по клику на кнопку с помощью history?",
+      "image": null
+    }
+  ]
+}

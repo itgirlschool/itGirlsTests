@@ -1,0 +1,229 @@
+{
+  "id": "29526d7925ce47cfa4690fbc87f02d74",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "позволяют создавать несколько хранилищ для приложения ",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "позволяют управлять состоянием приложения",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "умеют отслеживать точные изменения, что предотвращает ухудшение производительности",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "у них одинаковые возможности в части управления состоянием",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Какие есть общие особенности у React.Context и MobX?"
+    },
+    {
+      "options": [
+        {
+          "title": "reaction",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "декоратор",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "provider",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "autorun",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как называется способ оборачивания одного фрагмента кода в другой, например одной функции в другую для расширения её возможностей?"
+    },
+    {
+      "options": [
+        {
+          "title": "action",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "observer",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "inject",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "computed",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как называется декоратор, которым должна оборачиваться функция изменяющая state или вызывающая сайд-эффекты"
+    },
+    {
+      "options": [
+        {
+          "title": "Нельзя, shouldComponentUpdate не поддерживается, MobX переопределяет его и автоматически производит рендер при изменении наблюдаемого значения",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Можно, MobX получает от shouldComponent данные перед рендером и проверяет что значения изменились",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Нежелательно, лучше применять PureComponent",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Можно, в случае если нужно предотвратить рендер вручную для определенной ситуации",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Можно ли использовать @observable вместе с методом shouldComponentUpdate?"
+    },
+    {
+      "options": [
+        {
+          "title": "inject",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "action",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "observer",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "computed",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как называется декоратор, с помощью которого происходит подписка на изменение данных хранилища?"
+    },
+    {
+      "options": [
+        {
+          "title": "Нет, иначе невозможно отслеживать изменения",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Нет, их использование является обязательным и улучшает читаемость кода",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Да, их использование необязательно",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Можно ли использовать MobX без декораторов?"
+    },
+    {
+      "options": [
+        {
+          "title": "Состояние приложения часто обновляется",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Имеется сложная логика обновления состояния",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Всегда, когда можно использовать Context",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Если есть большое количество компонентов с состояниями, в которых используются одни и те же данные",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Когда есть смысл подключить в приложение менеджеры состояний?"
+    },
+    {
+      "options": [
+        {
+          "title": "observer",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "inject",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "action",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "computed",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как называется декоратор для функции, которая отслеживает изменения в наблюдаемых объектах"
+    },
+    {
+      "options": [
+        {
+          "title": "Да. Это автономная библиотека для управления состоянием ",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Нет. MobX неавтономен и можно его использовать только с react",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Да, только нужно подключить еще дополнительные пакеты",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Можно ли использовать MobX без React?"
+    }
+  ]
+}

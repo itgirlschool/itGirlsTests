@@ -1,0 +1,422 @@
+{
+  "id": "b3ade6db11624ffea0dbb2d3b133d190",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "LocalStorage “Переживает” перезапуск браузера",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Cookies следует использовать при необходимости хранения большого объема пользовательских данных",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Срок хранения данных в Cookies можно установить вручную",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "SessionStorage ”Переживает” закрытие вкладки",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "SessionStorage ”Переживает” перезагрузку страницы",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Выберите верные утверждения"
+    },
+    {
+      "options": [
+        {
+          "title": "setItem() и getItem()",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "addItem() и getItem()",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "sendItem() и findItem()",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как добавить и получить значение из веб-хранилища? "
+    },
+    {
+      "options": [
+        {
+          "title": "игнорировать регистр символов",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "глобальный поиск",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "многострочный поиск",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "поиск массива",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что означает флаг “m”?"
+    },
+    {
+      "options": [
+        {
+          "title": "HTML5 pattern=\"/^\\d{1,}$/\"/ и JS проверка паттерна через свойство patternMismatch",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "JavaScript c RegExp",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "HTML5 используя type=\"number”",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "HTML5 используя type=\"num”",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Как сделать input, который будет принимать только числа?"
+    },
+    {
+      "options": [
+        {
+          "title": "([А-ЯЁ][а-яё]+[\\-\\s]?){3,}",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "([A-Z][a-z]+[\\-\\s]?){3,}",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "([А-Я][а-я]+[\\-\\s]?){3,}",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Найдите регулярное выражение для ФИО на русском языке"
+    },
+    {
+      "options": [
+        {
+          "title": "Сообщать пользователю о требуемом формате, когда фокус находится в поле ввода",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Пользователь всегда прав, любые данные корректны. Корректировка данных должна происходить  только на стороне сервера.",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Использовать атрибут required",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Подсвечивать неверно заполненные поля. Браузер может предоставить нам эту информацию по CSS-псевдоклассу :invalid",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Как обратить внимание пользователя на корректность вводимых данных?"
+    },
+    {
+      "options": [
+        {
+          "title": "Стили применяются до того, как пользователь начнёт работу с формой. Поля, обязательные для заполнения, сразу подсветятся нам как :invalid",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Проверять мы можем только факт заполнения, но не корректность введенных данных",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Нативная валидация выполняется очень медленно",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Какие есть недостатки у стандартного способа задания валидации через HTML5?"
+    },
+    {
+      "options": [
+        {
+          "title": "Не имеет ограничений по времени хранения",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "7 дней",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "3 дня",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Сколько живет localStorage?"
+    },
+    {
+      "options": [
+        {
+          "title": "Нужно открыть в панеле разработчика вкладку Application",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "В файле webappsstore",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Необходимо установить дополнительное расширение для браузера",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как посмотреть localStorage в браузере?"
+    },
+    {
+      "options": [
+        {
+          "title": "Только строковые данные",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Массивы и объекты",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Только массивы",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какие типы данных можно хранить в sessionStorage?"
+    },
+    {
+      "options": [
+        {
+          "title": "localStorage.clear()",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "localStorage.deleteAll()",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "localStorage.update()",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как очистить локальное хранилище в браузере?"
+    },
+    {
+      "options": [
+        {
+          "title": "С их помощью сайт запоминает информацию о ваших посещениях",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Для хранения большого объема пользовательских данных",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Для работы на сайтах в режиме инкогнито",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Для чего нужны cookie JS?"
+    },
+    {
+      "options": [
+        {
+          "title": "Куки нужны для того, чтобы браузер помнил вас и выдавал страницы уже с вашими сохраненными данными и запросами даже спустя большое количество времени",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Куки нужны для того, чтобы вводить банковские данные автоматически",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Куки нужны для того чтобы хранить любые данные в формате ключ-значение",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "В чём польза cookie?"
+    },
+    {
+      "options": [
+        {
+          "title": "С ним большие объемы данных быстро обмениваются между браузером и веб-сервером",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "С ним можно работать только методами JavaScript",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Хранение и экспорт данных в ",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Какие преимущества использования JSON?"
+    },
+    {
+      "options": [
+        {
+          "title": "Неупорядоченные множества пар в формате ключ:значение",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Массивы",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "значение Null",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Числа",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Логические типы данных",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Какие значения могут быть использованы в JSON?"
+    },
+    {
+      "options": [
+        {
+          "title": "JSON.parse()",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "JSON.stringify()",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "JSON.fetch()",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "JSON.download()",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как брать данные из JSON?"
+    },
+    {
+      "options": [
+        {
+          "title": "Легко читается.",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Имеет меньший размер файла",
+          "isValid": true,
+          "comment": "Поэтому эффективно передает данные в Интернет."
+        },
+        {
+          "title": "Обращается к данным через указание свойств объектов.",
+          "isValid": true,
+          "comment": "let name = obj.property.name;"
+        },
+        {
+          "title": "Поддерживает множество сложных типов данных.",
+          "isValid": false,
+          "comment": "Включая диаграммы, изображения и другие типы данных."
+        },
+        {
+          "title": "Существуют теги для определения элементов",
+          "isValid": false,
+          "comment": "С большими файлами структура тегов делает его огромным и сложным для чтения."
+        },
+        {
+          "title": "Чтобы обратиться к данным, нужно сначала провести их анализ.",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Не поддерживает массив напрямую.",
+          "isValid": false,
+          "comment": "Чтобы иметь возможность использовать массив, нужно добавить теги для каждого элемента."
+        }
+      ],
+      "type": "multi",
+      "title": "Самостоятельно разберитесь, что за формат данных XML и чем он отличается от JSON.\nВыберите характерные для JSON особенности, которые отличают его от XML."
+    }
+  ]
+}

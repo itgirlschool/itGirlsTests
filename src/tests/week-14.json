@@ -1,0 +1,372 @@
+{
+  "id": "9f5fc49aed444b969668d885a93fd549",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "Через конструктор Array()",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Создание массива с помощью копирования — метод slice(begin, end)\n",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Объявление массива как функции",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Все ответы верные",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какими способами можно объявлять массивы в JS?"
+    },
+    {
+      "options": [
+        {
+          "title": "Поля в форме регистрации",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Лента в инстаграм",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Очередь в поликлинике",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Что из перечисленного могло бы быть массивом?"
+    },
+    {
+      "options": [
+        {
+          "title": "pop()",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "sort()",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "map()",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Каким методом можно удалить элемент из массива?"
+    },
+    {
+      "options": [
+        {
+          "title": "arr.indexOf(1)",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "arr[1]",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "arr[2]",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "arr.indexOf(2)",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как получить доступ ко второму элементу массива const arr = [3, 7, 10]?"
+    },
+    {
+      "options": [
+        {
+          "title": "length",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "len",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "size",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какое свойство объектов массива даёт общее количество элементов в нём?"
+    },
+    {
+      "options": [
+        {
+          "title": "1",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "4",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "5",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "const a = new Array(5), чему равна a.length?"
+    },
+    {
+      "options": [
+        {
+          "title": "shift",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "unshift",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "forEach",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Метод перебора массива: каким методом можно перебрать массив?"
+    },
+    {
+      "options": [
+        {
+          "title": "Ложь, arr[0] возвращает только значение, тогда как arr.shift() удаляет первый элемент",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Ложь, arr[0] возвращает только значение, тогда как arr.shift() возвращает и удаляет первый элемент",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Правда",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Для заданного массива arr выражения arr[0] и arr.shift() делают одно и то же. Правда или ложь?"
+    },
+    {
+      "options": [
+        {
+          "title": "sort()",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "map()",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "join()",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Каким методом можно отсортировать массив?"
+    },
+    {
+      "options": [
+        {
+          "title": "Нет, так как оператор typeof выдает ошибку с массивами",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Можем использовать оператор typeof для проверки наличия массива",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Не можем, так как оператор typeof возвращает «объект» и для массивов",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Можем ли мы проверить наличие массива с помощью оператора typeof? Если нет, то почему?"
+    },
+    {
+      "options": [
+        {
+          "title": "Несколько переменных одного типа",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Совокупность переменных под одним именем",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Переменная, которая содержит множество значений",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что называется массивом?"
+    },
+    {
+      "options": [
+        {
+          "title": "1",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "С любого числа",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "0",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "С какого порядкового номера начинаются массивы?"
+    },
+    {
+      "options": [
+        {
+          "title": "Массив не имеет значений",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Множество",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Одно",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Сколько значений может иметь массив?"
+    },
+    {
+      "options": [
+        {
+          "title": "undefined",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "0",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "1",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что выведет в консоль код?\n\nlet arr = [1, 66, 20];\narr.length = 0;\nconsole.log(arr[0]);"
+    },
+    {
+      "options": [
+        {
+          "title": "let styles = {”Джаз”, “Блюз”};",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "let styles = [”Рэп”, “Регги”];",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "let styles = [”Джаз”, “Блюз”];",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Нужно создать массив styles с элементами “Джаз” и “Блюз”. Какая запись верная?"
+    },
+    {
+      "options": [
+        {
+          "title": "Яблоко, Апельсин, Груша Груша",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "4",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Яблоко, Апельсин, Груша",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что выведет следующий код? Вспомните, что вызов fruits.push(…) равнозначен fruits[fruits.length] = … . \n\nlet fruits = [”Яблоко”, “Апельсин”, “Груша”]; fruits.push(”Груша”);"
+    },
+    {
+      "options": [
+        {
+          "title": "[10, 50, 88]",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "[50, 88]",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "false",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что выведет в консоль код?\n\nlet nums = [10, 50, 88];\nnums.filter(function(n) {\nreturn n > 10;\n});\nconsole.log(nums);"
+    }
+  ]
+}

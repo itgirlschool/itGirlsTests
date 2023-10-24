@@ -1,0 +1,265 @@
+{
+  "id": "2386b19e376442acb6da18b52467074f",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "Document Order Model - порядковая модель документа",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Document Object Module - модульная модель документа",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Document Object Management - управление объектами документа",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Document Object Model - объектная модель документа",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Data Object Model - модель объекта данных",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что такое DOM?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "IATA-код аэропрта Мумбаи :)",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Browser Object Model - объектная модель браузера",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Business Object Model - модель объектов бизнес-процесса",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Base Object Model - модель объекта базы данных",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что такое BOM?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "let elem = document.getElementById (#age-table);",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "let elem = document.querySelector (”#age-table”);",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "let elem = document.getElementByAttribute (id, “age-table”);",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "let elem = document.getElementById (”age-table”);",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Есть такая страница. Как найти в ней таблицу с id=”age-table” ?",
+      "image": "/src/test/assets/images/image-test-11.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "nfocus",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "onkeydown",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "onclick",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "onmousedown",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какое событие не может быть вызвано кликом мыши?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "let formSearch = document.querySelector ('search');",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "let formSearch = document.getElementsByTagName ('search');",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "let formSearch = document.getElementsByName ('search');",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Есть такая страница. Как найти в ней форму form с именем name=”search”",
+      "image": "/src/test/assets/images/image2-test-11.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "В HTML-файле у кнопки добавить событие, например: <button type=”button” onclick=”goToPage()”>Жми сюда!</button>. В JS-файле прописать, куда переходить, при клике на кнопку, например: function goToPage(){page.location = “",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "В HTML-файле у кнопки добавить событие, например: <button type=”button” onclick=”goToPage()”>Жми сюда!</button>. В JS-файле прописать, куда переходить, при клике на кнопку, например: function goToPage(){window.location.href = “",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как сделать переход на другую страницу при клике на кнопку (без <a href=…>, только средствами JavaScript)?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "function clearInput(){document.getElementById(’someText’).value = “”}",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "function clearInput(){document.getElementById(’someText’).value = 0}",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "function clearInput(){document.getElementById(’someText’).value = null}",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "function clearInput(){document.getElementById(’someText’).value = delete}",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Как можно обнулить (очистить) значение внутри input?",
+      "image": "/src/test/assets/images/image3-test-11.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "Зависит от положения звёзд в момент клика",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Да",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Нет",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Есть ссылка: <a href=”https://itgirlschool.com/”> Текст ссылки</a> На документе стоит обработчик: document.onclick = function (e) {e.preventDefault();} Произойдет ли при клике на ссылку переход по ней?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "onmouseover",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "onmousescroll",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "onmousemove",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "onclick",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какого события не существует?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "5",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "3",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "0",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "2",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "1",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Сколько детей (дочерних DOM-узлов) у элемента <ul> в примере ниже:\n<ul>\n    <li>Привет</li>\n    <li>Мир</li>\n</ul>",
+      "image": null
+    }
+  ]
+}

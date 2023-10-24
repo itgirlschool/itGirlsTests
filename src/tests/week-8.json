@@ -1,0 +1,475 @@
+{
+  "id": "413220107d874a2a86a695b4c3fd49de",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "Сайты с различными JavaScript виджетами",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Сайты со встроенными JavaScript плагинами",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Всё перечисленное",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Адаптивные сайты",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Bootstrap позволяет создавать…",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Корректное отображение сайта и стабильная работа в современных браузерах",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Наличие большого количество готовых, хорошо продуманных компонентов",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Все ответы верные",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Высокая скорость создания качественной адаптивной верстки",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какие основные преимущества Bootstrap?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "<button type=”button” class=”btn btn-outline-success”>Желтая кнопка</button>",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "<button type=”button” class=”btn btn-outline-secondary”>Желтая кнопка</button>",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "<button type=”button” class=”btn btn-outline-danger”>Желтая кнопка<button>",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "<button type=”button” class=”btn btn-outline-warning”>Желтая кнопка</button>",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как сделать желтую кнопку с помощью Bootstrap?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "<div class=”progress”><div class=”progress-bar” role=”progressbar” style=”width:25%” aria-valuenow=”25” aria-valuemin=”0” aria-valuemax=”100”>25%</div></div>",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "<div class=”progress”><div class=”progress-bar” role=”progressbar” style=”width:50%” aria-valuenow=”50” aria-valuemin=”0” aria-valuemax=”100”>25%</div></div>",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "<div class=”progress”><div class=”progress-bar” role=”progressbar” style=”width:75%” aria-value-now=”75” aria-valuemin=”0” aria-valuemax=”100”>25%</div></div>",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "<div class=”progress”><div class=”progress-bar” role=”progressbar” aria-valuenow=”0” aria-valuemin=”0” aria-valuemax=”100”>25%</div></div>",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Каким компонентом Bootstrap можно задать такой элемент?",
+      "image": "/src/test/assets/images/image-test-8.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "Добавить класс no-gutters",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Добавить класс col-md-0",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Добавить класс padding-0",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Обернуть таблицу в <div class=”container”></div>",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как убрать поля между колонками?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Кнопки",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Выпадающий список",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Текст",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Изображение",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что не включает карточка в Bootstrap?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Термин, отменяющий адаптивность колонок",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Автоматический перенос колонок на следующую строку",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Меняет направление колонок (с вертикального на горизонтальное)",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Готовый шаблон для колонки",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что такое колонка auto-layout?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "align-items-center",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "align-items-end",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "align-items-middle",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "align-items",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какой класс выполнит центрирование содержимого по горизонтали?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Все варианты верные",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Необходимо подключить скрипты Bootstrap",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Необходимо подключить стили Bootstrap",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что необходимо подключить для корректной работы Bootstrap?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Располагает два блока по правому краю",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Располагает два блока по центру",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Располагает два блока по левому краю",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Располагает два блока по краям",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что делает код ниже?",
+      "image": "/src/test/assets/images/image2-test-8.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "container-fluid",
+          "isValid": true,
+ ,
+          "comment": ""
+        },
+        {
+          "title": "container",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "fluid",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какой класс растягивает блок на всю ширину экрана?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "lg, md, sm",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "lg, md",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "lg, md, sm, xs",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "md, sm, xs",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "sm, xs",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какие есть типы адаптивности для классов в Bootstrap?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "offset-3",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "md-offset-3",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "col-offset-3",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "col-md-3",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "col-md-offset-3",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Где верно создан отступ в 3 ячейки?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "menu",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "head",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "navbar",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "navigation",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "nav",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "header",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какой класс отвечает за добавление стилей к меню сайта?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Для создания пагинации",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Для создания списка на странице",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Для создания меню сайта",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Для создания шапки сайта",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Для чего используются классы “nav navbar-nav”?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Делает цвет текста зеленым",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Делает цвет текста красным",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Делает цвет текста серым",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Делает цвет текста синим",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что делает класс “text-primary” с текстом?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "12",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "6",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "14",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "8",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Сколько сеток в Grid системе?",
+      "image": null
+    }
+  ]
+}

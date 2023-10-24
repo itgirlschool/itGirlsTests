@@ -1,0 +1,184 @@
+{
+  "id": "a977b756f1694b3fa98d3592cef88f3e",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "fontSize: ‘1.5 em’",
+          "isValid": true,
+          "comment": "В CSS между числом и единицей измерения, как \"em\" или \"px\", не должно быть пробела. В этом примере присутствует пробел между \"1.5\" и \"em\", что делает значение некорректным."
+        },
+        {
+          "title": "width: 200, height: 50",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "<button style={ myStyle }>",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какую ошибку я допустила в этом примере?"
+    },
+    {
+      "options": [
+        {
+          "title": "1, 2",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "2, 3, 4",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "1, 2, 3, 4",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "1. Какие есть способы работы со стилями в React? \n1) Инлайновая стилизация \n2) Таблицы стилей CSS \n3) CSS модули \n4) CSS-препроцессоры"
+    },
+    {
+      "options": [
+        {
+          "title": "Reference error",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Отобразится кнопка «заказать»",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Карточка не будет отображаться полностью",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как будет выглядеть карточка товара, если ей передать атрибут addedToCart===0?"
+    },
+    {
+      "options": [
+        {
+          "title": "Проверить наличие товара в целом",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Никаких проверок больше не требуется",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какие еще проверки нужно было бы сделать для атрибута addedToCart?"
+    },
+    {
+      "options": [
+        {
+          "title": "Условный оператор не нужен, можно все сделать версткой",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Использовать условный оператор if без else",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Использовать для проверки товаров тернарный оператор",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Клиент попросил повесить тег \"New\" на товары из новой коллекции. Какой условный оператор выбрать?"
+    },
+    {
+      "options": [
+        {
+          "title": "1",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "1, 2, 3",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "2, 3",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "1. Какими тремя способами можно написать условный рендеринг? \n1) Условный оператор if 2) Тернарный оператор 3) Логический оператор && и/или ||"
+    },
+    {
+      "options": [
+        {
+          "title": "render with arguments",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "PropTypes",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Props",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что используется для передачи данных к компоненту извне?"
+    },
+    {
+      "options": [
+        {
+          "title": "1, 4, 6",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "2, 3, 4, 5",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "1, 2, 3, 4, 5, 6",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "В чем преимущества использования препроцессоров? \n1) Разделение на небольшие файлы \n2) Возможность вычисления математических операций \n3) Вложенность \n4) Использование амперсанда & \n5) Примеси (миксины) \n6) Возможность вводить переменные"
+    },
+    {
+      "options": [
+        {
+          "title": "@include и/или @extend",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Больше способов нет",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какой есть еще способ использовать переменные, кроме $ в препроцессорах?"
+    }
+  ]
+}

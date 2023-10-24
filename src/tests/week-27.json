@@ -1,0 +1,216 @@
+{
+  "id": "dff8db19146742bfbca6b63fc85b64e6",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "Нельзя",
+          "isValid": true,
+          "comment": "Ключи должны быть стабильными, предсказуемыми, уникальными. Нестабильные ключи (например, произведённые с помощью Math.random()) вызовут необязательное пересоздание многих экземпляров компонента и DOM-узлов, что может вызывать ухудшение производительности и потерю состояния у дочерних компонентов."
+        },
+        {
+          "title": "Можно",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Можно, но нужно добавить еще дополнительные идентификаторы",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Можно ли задать атрибут компонента key функцией Math.random()?",
+      "image": "/src/test/assets/images/image-test-27.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "<a href=”#”onClick={this.onClick.bind(this, id)}>click {count} </a>",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "<a href=”#”onClick={(e)= > this.onClick( id, e)}>click {count} </a>",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "<a href=”#”onClick=(id)= >(e)= >this.onClick()}>click {count} </a>",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "<a href=”#”onClick={this.onClick(this, id)}>click {count} </a>",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какой вариант передачи аргументов в обработчики событий самый оптимальный",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "В отличие от DOM, VirtualDOM не является официальной спецификацией, а представляет собой новый метод взаимодействия с DOM",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "VirtualDOM аналог модели DOM, который имеет свою спецификацию и область применения",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "VirtualDOM никогда не взаимодействует с API DOM и не изменяет его",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Отличий нет, он выступает резервной копией DOM",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "В чем отличие VirtualDOM от обычного?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "bar, foo, baz",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "foo, bar, baz",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "baz, bar, foo",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "foo, bar, baz, bar",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "В каком порядке выйдут сообщения в консоли?",
+      "image": "/src/test/assets/images/image2-test-27.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "Используется для доступа к элементам DOM при выделении текста, фокуса и проигрывании медиа",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Они заменяют пропсы",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Упрощают хранение дочерних компонентов",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Дают возможность вызвать методы дочерних компонентов из родительского",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Какую проблему решает использование рефов?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Да, потому что это изменяет обычный поток данных, вместо этого поток данных направлен снизу вверх без использования callback",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Да, потому что нарушается принцип наследования",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Да, потому что нарушается принцип инкапсуляции компонента (”независимости” состояния одного от других)",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Нет, для React свойственен двунаправленный поток данных и появление рефов решили эту проблему",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Противоречит ли философии реакта вызов методов ребенка из родительского компонента и почему?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Нет, для этого используется метод forwardRef и им оборачивается весь компонент",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Можно",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Нельзя никаким образом передавать ref дочерним компонентам",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Нельзя передавать рефы в функциональных компонентах",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Можно ли с помощью хука useRef передать ref дочерним элементам?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Кастомный хук содержит более сложную логику и позволяет решать более специфичные и сложные задачи",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Кастомные хуки дают возможность компонентам разделять общую логику без добавления лишних компонентов",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Кастомные хуки позволяют преобразовать один компонент в другой",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Кастомные хуки позволяют объединять другие хуки из справочника в совершенно новую функцию",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Что дает нам использование кастомных хуков?",
+      "image": null
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "6f367491830d43f9a6dc45916509de9a",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "запрашивает текущий день, месяц и год",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "запрашивает текущий день недели",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "запрашивает текущий месяц",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Для чего предназначен метод getDay()?"
+    },
+    {
+      "options": [
+        {
+          "title": "с 1",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "с Понедельника",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "с 0",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Метод getDate() выводит текущее число, начиная с .."
+    },
+    {
+      "options": [
+        {
+          "title": "Возвращает текущий час в 24-часовом формате",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Такого метода не существует",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Возвращает текущий час в формате am/pm",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Для чего предназначен метод getHours() объекта Date?"
+    },
+    {
+      "options": [
+        {
+          "title": "new Date(2021, 0, 24, 22, 51);",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "new Date(2021, 1, 22, 24, 51);",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "new Date(24, 0, 2021, 22, 51);",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "new Date(24, 1, 2021, 22, 51);",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как создать дату 24 января 2021 года, 22 часа 51 минута? Временная зона - местная."
+    },
+    {
+      "options": [
+        {
+          "title": "Mar Wed 00:00:00 GMT+0300 (Москва, стандартное время)",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Fri Sep 02 2016 00:00:00 GMT+0300 (Москва, стандартное время)",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Wed Mar 09 2016 00:00:00 GMT+0300 (Москва, стандартное время)",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что выведет console.log(d)? let d = new Date(2016, 2, 9); console.log(d);"
+    },
+    {
+      "options": [
+        {
+          "title": "Выведется только текущий год в формате “ГГ”\n",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Выведется текущий день, месяц, год и другая информация",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Выведется только текущий год в формате ”ГГГГ”",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Определите результат работы кода: let y = new Date(); let d = y.getFullYear(); console.log(d);"
+    },
+    {
+      "options": [
+        {
+          "title": "Ошибка - неправильно описана функция получения даты",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Ошибка - используется неверная функция",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Ошибок нет",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Определите ошибку при выводе текущего года: let d = new Date(); let y = d.getFullYear(); console.log(y);"
+    },
+    {
+      "options": [
+        {
+          "title": "Ошибка - используется неверная функция",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Ошибка - неправильно объявлена переменная",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Ошибок нет, вывод зависит от используемого браузера",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Определите ошибку при выводе текущей даты: let y = new Date(); let d = getFullYear(); console.log(d);"
+    },
+    {
+      "options": [
+        {
+          "title": "Метода не существует",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Текущий час",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Текущее время (час:минута:секунда)",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Метод getHours() выводит…"
+    },
+    {
+      "options": [
+        {
+          "title": "Это одно и тоже, разницы нет",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "getDay() - возвращает день месяца. getDate() - возвращает день недели (0 - воскресенье, 1 - понедельник, и т.д)",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "getDay() - возвращает день недели (0 - Воскресенье, 1 - Понедельник, и т.д) getDate()- возвращает день месяца",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Чем в JavaScript отличается метод getDay() от getDate()?"
+    }
+  ]
+}

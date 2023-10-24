@@ -1,0 +1,40 @@
+@import "vars";
+
+@font-face {
+  font-family: 'Rubik';
+  src: url(../assets/fonts/rubik-v14-latin_cyrillic-700.woff) format('opentype');
+}
+
+@mixin font($weight, $size, $color) {
+  font-weight: $weight;
+  font-size: $size;
+  font-family: $family;
+  color: $color;
+}
+
+@mixin button($weight, $size, $bg-color, $text-color, $hover-bg-color, $hover-text-color, $border) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+  height: 44px;
+  padding: 10px;
+  border-radius: 50px;
+  background: $bg-color;
+  border: $border;
+
+  @include font($weight, $size, $text-color);
+
+  &:hover {
+    cursor: pointer;
+    background: $hover-bg-color;
+    color: $hover-text-color;
+    border: $border;
+  }
+
+  &[disabled] {
+    cursor: default;
+    background: $lightGreyColor;
+  }
+}

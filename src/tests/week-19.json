@@ -1,0 +1,297 @@
+{
+  "id": "21ad5ddf333747cc93d1afd460183ca1",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "Асинхронные запросы выполняются последовательно, один за другим.",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Асинхронные запросы выполняются в фоновом режиме, а не последовательно.",
+          "isValid": true,
+          "comment": "Поэтому приложение не зависает во время ожидания события"
+        },
+        {
+          "title": "С помощью них мы получаем  информацию с сервера.",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "В чем особенность асинхронных запросов?"
+    },
+    {
+      "options": [
+        {
+          "title": "Ответ можно обработать только один раз, либо текст, либо JSON.",
+          "isValid": true,
+          "comment": "Мы можем выбрать только один метод чтения ответа. Если мы уже получили ответ с response.text(), тогда response.json() не сработает, так как данные уже были обработаны."
+        },
+        {
+          "title": "После response.json() можно вызвать response.text(), но не наоборот.",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Можно обрабатывать в любой последовательности.",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Можно ли обработать ответ от сервера одновременно и как текст, и как JSON?"
+    },
+    {
+      "options": [
+        {
+          "title": "В том, что нет отправки запроса по submit",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "В асинхронности запроса",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "В том, что запрос пойдет на сервер",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "В чем преимущество AJAX-запросов перед старым способом работы с сервером через <form action=’server_script_name’>"
+    },
+    {
+      "options": [
+        {
+          "title": "Цикл событий, который отвечает за выполнение кода, сбора и обработки событий и выполнения под-задач из очереди",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Совокупность асинхронных операций",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Бесконечный цикл задач браузера",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что такое цикл событий (event loop) в JS ?"
+    },
+    {
+      "options": [
+        {
+          "title": "Информационные 1хх",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Успешные 2хх",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Отклоненные 3хх",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Клиентские ошибки 4хх",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Браузерные ошибки 5хх",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Какие коды ответа (состояния) HTTP существуют?"
+    },
+    {
+      "options": [
+        {
+          "title": "VSCode ⇒ терминал ⇒ get headers -a",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Инструмент разработчика в браузере ⇒ Network ⇒ нужный запрос ⇒ Headers",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Инструмент разработчика в браузере ⇒ Performance ⇒ Headers",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как посмотреть заголовки запроса к странице или API?"
+    },
+    {
+      "options": [
+        {
+          "title": "Набор правил того, как организовать написание кода серверного приложения, чтобы все системы легко обменивались данными и приложение можно было масштабировать",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Протокол передачи данных",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Способ взаимодействия сайтов и веб-приложений с пользователем",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Самостоятельно разберитесь, что такое REST?"
+    },
+    {
+      "options": [
+        {
+          "title": "POST запрос может передать больший объем данных (объект).",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "GET запрос запрашивает данные с сервера; POST - отправляет на сервер.",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "GET запрос отправляет данные на сервер; POST - запрашивает данные с сервера.",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "При GET запросе данные не защищены; при POST - защищены",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "POST запрашивает данные с помощью параметров ключ-значение. ",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "GET запрос может передать больший объем данных (объект).",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Выберите правильные утверждения."
+    },
+    {
+      "options": [
+        {
+          "title": "POST ",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "GET",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Promise() ",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какой вид запроса лучше использовать для получения отфильтрованного списка товаров?"
+    },
+    {
+      "options": [
+        {
+          "title": "Это стандарт современных браузеров, обеспечивающий взаимодействие между клиентом и сервером из разных источников",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Это ответ сервера, который позволяет совместное использование ресурсов одним источником",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Это механизм, который запрещает дополнительные заголовки HTTP",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Самостоятельно разберитесь, что такое CORS?"
+    },
+    {
+      "options": [
+        {
+          "title": "application/x-www-form-urlencoded ",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "multipart/form-data ",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "application/json",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "text/json",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "application/form-submitted",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Что можно писать в параметре заголовков "
+    },
+    {
+      "options": [
+        {
+          "title": "Promise может находиться в одном из трех состояний:\npending - стартовое состояние, операция стартовала,\nfulfilled - получен результат,\nrejected - ошибка",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Promise используется для отложенных и асинхронных вычислений",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "В Promise можно свободно менять состояния между pending, fulfilled и rejected",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Изменить состояние промиса можно, вызвав колбэки resolve или reject, переданные аргументами в функцию-исполнитель",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Выберите утверждения, верно описывающие промисы (promise):"
+    }
+  ]
+}

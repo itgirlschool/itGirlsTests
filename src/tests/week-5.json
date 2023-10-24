@@ -1,0 +1,240 @@
+{
+  "id": "47cb9bfe84dc4cb98ae67b4ad0239a70",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "Позволяет создать адаптивный дизайн намного проще, чем другие виды позиционирования",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Работает быстрее и эффективнее других видов позиционирования ",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Намного проще в понимании кода и его поддержании. Меньше строк кода в отличии от других способов позиционирования",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Почему в большинстве ситуаций стоит использовать flexbox-позиционирование?"
+    },
+    {
+      "options": [
+        {
+          "title": "Лучший способ создания динамических таблиц",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "С его помощью легче работать с позиционированием элементов, у которых динамическая высота",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "С его помощью можно центрировать элементы по горизонтали и вертикали",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Самостоятельно изучите способ позиционирования через display: table и ответьте на вопрос, для чего лучше всего подходит?"
+    },
+    {
+      "options": [
+        {
+          "title": "с помощью align-items:center",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "justify-content:center",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "margin: auto 0",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "top:50%",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": " с помощью align-content",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Какими способами можно сделать горизонтальное выравнивание по центру?"
+    },
+    {
+      "options": [
+        {
+          "title": "Левая и правая оси. Задать flex-direction:left или flex-direction:right",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Родительская и дочерняя. Задать flex-direction:parent или flex-direction:child",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Горизонтальная и вертикальная. Задать flex-direction:vertical или flex-direction:horizontal",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Горизонтальная и вертикальная. Задать flex-direction:column или flex-direction:row",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какие есть оси во флекс-верстке и как задается их направление?"
+    },
+    {
+      "options": [
+        {
+          "title": "Легко адаптирует элементы под разные экраны монитора",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Позволяет умещать в родительском элементе весь контент и адаптирует размер родителя в зависимости от количества дочерних элементов",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Позволяет точно менять то, как блочная модель работает и как вычисляются размеры элемента",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "В чем преимущество box-sizing?"
+    },
+    {
+      "options": [
+        {
+          "title": "flex-grow определяет, может ли ширина элемента уменьшаться, flex-shrink - расти",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "flex-grow определяет, может ли ширина элемента расти, flex-shrink - уменьшаться",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "flex-grow применяется к вертикальным элементам, а flex-shrink - к горизонтальным",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Чем отличается flex-grow от flex-shrink?"
+    },
+    {
+      "options": [
+        {
+          "title": "Для установки приоритета дочерних элементов внутри элемента с этим свойством",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Для того, чтобы задать размер элемента относительно родительского элемента",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "flex-элементы выстраиваются в порядке заданных значений order во flex-контейнере",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Зачем нужно свойство order?"
+    },
+    {
+      "options": [
+        {
+          "title": "Скрыть опции в навигационной панели",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Для создания всплывающего меню",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Зафиксировать элемент относительно прокручиваемой страницы",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Зафиксировать элементы в контейнере",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Для какой ситуации подойдет position:fixed?"
+    },
+    {
+      "options": [
+        {
+          "title": "float",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "display:none",
+          "isValid": false,
+          "comment": "это удаляет элемент из потока документа "
+        },
+        {
+          "title": "display:inline",
+          "isValid": false,
+          "comment": "это делает элемент строчным и подходит лучше всего для маленьких кусков текста без переноса"
+        },
+        {
+          "title": "display:block",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Каким способом лучше всего верстать большие блоки текста?"
+    },
+    {
+      "options": [
+        {
+          "title": "Как в обычной блочной модели:рамки+ отступы+размеры содержимого",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Как в float-контейнере:рамки+размеры содержимого",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Только размеры содержимого, не учитываются рамки и отступы",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как рассчитывается размер flex-контейнера?"
+    }
+  ]
+}

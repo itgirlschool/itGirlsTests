@@ -1,0 +1,250 @@
+{
+  "id": "a1f2ce637f8e4befb8747b65a6ee9465",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "проверка соответствия реальных и ожидаемых результатов",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "проверка типа документа",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "автоматическая проверка кода на соответствие каким-то правилам",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Свод требований конкретного пользователя или услуги",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что такое валидация?"
+    },
+    {
+      "options": [
+        {
+          "title": "&laquo;",
+          "isValid": false,
+          "comment": "Код символа «"
+        },
+        {
+          "title": "&copy;",
+          "isValid": true,
+          "comment": "код символа ©"
+        },
+        {
+          "title": "&lt;",
+          "isValid": false,
+          "comment": "Код символа <"
+        },
+        {
+          "title": "&rarr;",
+          "isValid": false,
+          "comment": "код символа →"
+        }
+      ],
+      "type": "solo",
+      "title": "Какой спецсимвол используется для указания знака ©?"
+    },
+    {
+      "options": [
+        {
+          "title": "<legend>",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "<tfoot>",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "<video>",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Найдите пример еще тега HTML5, который не вошел в урок"
+    },
+    {
+      "options": [
+        {
+          "title": "<main>",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "<footer>",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "<nav>",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "<aside>",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какой тег мы используем для создания меню?"
+    },
+    {
+      "options": [
+        {
+          "title": "сложности в поддержании кода",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "теряется функциональность элементов сайтов",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "для поисковых систем элементы страницы одинаковы",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "плохо читаемый код другими разработчикам",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Чем плохо использовать div для всего?"
+    },
+    {
+      "options": [
+        {
+          "title": "muted",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "loop",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "preload",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "controls",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какой атрибут выключает звук при воспроизведении видеофайла?"
+    },
+    {
+      "options": [
+        {
+          "title": "задать значение type=“group”",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "задать значение type=“block”",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "задать одинаковое значение атрибуту name",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "задать одинаковое значение атрибуту value",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как сделать блок радиокнопок, чтобы выбирался только один пункт?"
+    },
+    {
+      "options": [
+        {
+          "title": "input type=\"radio”",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "date type=“input”",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "input type=“date”",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Каким тегом можно сделать поле ввода даты?"
+    },
+    {
+      "options": [
+        {
+          "title": "с помощью атрибута selected",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "с помощью атрибута chosen",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "прописать в атрибуте name = selected",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "назначить тегом select",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как определяется, какой именно пункт будет выбран по умолчанию в выпадающем списке?"
+    },
+    {
+      "options": [
+        {
+          "title": "использование большого кол-ва тегов, соблюдение определённых размеров блоков",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "универсальная разметка, которую можно использовать для создания разных сайтов",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "работает, проходит валидацию, соблюдение определенного стиля кода",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что такое хорошая разметка?"
+    }
+  ]
+}

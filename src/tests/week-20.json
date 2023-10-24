@@ -1,0 +1,230 @@
+{
+  "id": "a6805d0a730f44c0b4b9488140fb8e92",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "Cитуация, при которой функция не может выполнить то, что она обещает.",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Сообщение в консоли",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Всплывающие модальное окно в браузере",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что считается ошибкой в JS?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Ошибки, которые возникают во время фазы чтения кода",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Ошибки, которые возникают во время выполнения кода",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Так называют все ошибки возникающие в коде",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какие ошибки называют “ошибками парсинга”?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Появляется сообщение в консоли",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "JavaScript генерирует объект, содержащий детали ошибки",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Ошибка записывается в локальное хранилище",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что происходит при возникновении ошибки?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Он содержит объект ошибки с подробной информацией о произошедшем",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "С помощью блока finally можно выполнить очистку всех ресурсов, выделенных в блоке try, и запускать код даже при возникновении исключения в блоке try",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Позволяет обрабатывать ошибки во время исполнения кода",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Зачем нужен блок “finally”?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "try{alert()}finally(error) {alert”Имя пользователя не заполнено”)}",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "try{alert()}catch(error){alert”Имя пользователя не заполнено”)}",
+          "isValid": true,
+          "comment": "Поэтому приложение не зависает во время ожидания события"
+        },
+        {
+          "title": "finally {alert()}catch(error) {alert”Имя пользователя не заполнено”)}",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Есть следующий код.  Как сделать так, чтобы при обращении к нему выводилось внятное сообщение об ошибке \"Имя пользователя не заполнено\"?",
+      "image": "/src/test/assets/images/image-test-20.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "Обработать ошибку внутри catch",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "С помощью throw",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Сделать корректный Java Script код",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как сгенерировать собственную ошибку, например, в случае некорректного формата данных?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "npm init",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "npm fetch",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "npm run start",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какую команду надо ввести, чтобы сгенерировался файл package.json?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "try {\nparseInt('ыыыы');\n}\ncatch (error) {\nconsole.log(error);\n}",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "try {\nparseInt('ыыыы');\n}\nfinally (error) {\nconsole.log(error);\n}",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "throw {\nparseInt('ыыыы');\n}\ncatch (error) {\nconsole.log(error);\n}",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Приведите пример захвата ошибки в случае некорректного преобразования данных   console.log(parseInt('ыыыы'));",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "npm run start",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "npm -v",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "npm i",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как узнать, установлен ли у тебя менеджер пакетов ",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Сборщик исправляет ошибки в коде самостоятельно, предлагая 5 новых вариантов для разработчика.",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Это процесс преобразования исходного кода программы в готовый продукт. сборка проекта позволяет ускорить и упростить разработку.",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "WEBPACK",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Gulp, Brunch",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Что такое сборщик и зачем он нужен? Какие еще бывают сборщики помимо “Browserify”?",
+      "image": null
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "id": "1091860691d342eba02cc29f812b68ba",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "Через медиа запросы задать размер текста",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Через свойство mobile-screen",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Через тег picture и с определенными значениями атрибутов width и text",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Через тег meta с определенными значениями атрибутов name и content",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как сделать так, чтобы при просмотре на телефоне текст стал читаемым, а картинка - большой?",
+      "image": "/src/test/assets/images/image-test-7.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "Адаптивный дизайн - один макет для разных видов устройств, отзывчивый дизайн - разный макет для всех устройств",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Адаптивный дизайн - один макет для разных видов устройств, отзывчивый дизайн - разный макет для разных видов устройств",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Адаптивный дизайн - один макет для разных видов устройств, отзывчивый дизайн - один макет для всех устройств",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "В чем разница между адаптивным и отзывчивым веб-дизайном?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "em",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "%",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "px",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "vw",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какие величины лучше использовать для шрифтов в гибком дизайне?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Отзывчивый вид. Mostly Fluid",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Отзывчивый вид. Layout Shifter",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Адаптивный вид. Column Drop",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Отзывчивый вид. Tiny Tweaks",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Адаптивный вид. Layout Shifter",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Адаптивный вид. Tiny Tweaks",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какой вид верстки использован на картинке? К Какой категории шаблонов он относится?",
+      "image": "/src/test/assets/images/image2-test-7.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "@media (min-width: 800px) and (max-width:1200px)",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "@media (max-width:800px) and (min-width:1200px)",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "@media screen and (max-width:1200px)",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "@media (max-width:800) and (max-width:1200)",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как задать стили для экранов шириной от 800 до 1200px?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "min-width: 100px",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "width:100%",
+          "isValid": true,
+          "comment": "возможно еще через max-width"
+        },
+        {
+          "title": "max-width: 2em",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "width: 1200px",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как можно задавать гибкие изображения?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Через свойство landscape. В режиме landscape ширина больше высоты, в отличии от режима portrait",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Через селектор .landscape { } В режиме landscape ширина меньше высоты, в отличии от режима portrait",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Через @media (orientation: landscape) В режиме landscape ширина больше высоты, в отличии от режима portrait",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как задать стили только для landscape поворота экрана? И чем отличается режим ",
+      "image": null
+    }
+  ]
+}

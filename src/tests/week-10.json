@@ -1,0 +1,265 @@
+{
+  "id": "8b94d4ade9af48b8b6a6d012150e3e22",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "Function expression",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Function indication",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Function declaration",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Function announcement",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Arrow functions",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Какие есть способы объявления функций?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Arrow Function",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Function Expression",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Function Declaration",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "function divide (a, b) {return a / b;} - это …",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "let divide => function (a, b) {return a / b;}",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "let divide = function (a, b) {return a / b;}",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "let function divide =  (a, b) {return a / b;}",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как переделать функцию из предыдущего вопроса (function divide (a, b) {return a / b; }) в Function Expression?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "const divide = function(a, b) => a / b;",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "const divide => (a, b) = a / b;",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "const divide(a, b) => a / b;",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "const divide = (a, b) => a / b;",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "А теперь, давай трансформируем эту же функцию (function divide (a, b) {return a / b; }) в стрелочную:",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Отладкой",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Тестированием",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Логированием",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Процесс проверки того, что программное обеспечение или приложение не содержат ошибок называется…",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Логирование",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Починка",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Отладка (дебаггинг)",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Головная боль",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Процесс исправления ошибок, обнаруженных во время тестирования - это…",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Процесс поиска и исправления ошибок в скрипте",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Вывод информации из кода в консоль для “внутреннего пользования”",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Проверка того, все ли работает как надо на странице",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Непонятное слово",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Логирование - это…",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Function Declaration и Function Expression отличаются синтаксисом",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Function Declaration объявляется отдельной конструкцией (function…) в основном потоке кода",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Function Declaration могут быть вызваны раньше своих определений",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Function Declaration создается внутри другого выражения или синтаксической конструкции",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Function Declaration создается, когда выполнение доходит до нее, а потом уже может использоваться",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Посмотрим на различия между Function Expression и Function Declaration: выбери верные выражения (несколько верных ответов):",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Выводит ошибки в консоли браузера ",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Выводит различного рода информацию в консоли браузера",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Выводит различного рода информацию на экран",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Утешает и подбадривает программиста, у которого не работает код",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что делает функция console.log()?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "- это область видимости, которая определяет доступность (видимость) переменных",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "- это область видимости, которая даёт возможность получить доступ к переменным только внутри конкретных функций",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "- это область видимости, которая даёт возможность получить доступ ко всем скриптам и функциям на веб-странице",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что такое глобальная зона видимости функций?",
+      "image": null
+    }
+  ]
+}

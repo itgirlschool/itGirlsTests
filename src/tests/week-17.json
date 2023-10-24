@@ -1,0 +1,245 @@
+{
+  "id": "0be180fff79d490c911eefd758a4ac7e",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "Это разные типы данных",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Объект представляет описание класса, его состояния и поведения, а класс является конкретным воплощением или экземпляром объекта",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Класс представляет описание объекта, его состояния и поведения, а объект является конкретным воплощением или экземпляром класса",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Чем отличается класс от объекта? ",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Это набор стандартных функций, из которых можно собрать множество разных объектов",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Это специальный метод, служащий для создания и инициализации объектов, созданных с использованием “class”",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Библиотека стандартных компонентов",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Внешняя оболочка для встроенных объектов JavaScript",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что такое конструктор?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "User-defined Constructors - конструкторы, объявленные и определенные программистом для использования в конкретном приложении",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Outdoor Constructors - конструкторы внешних библиотек",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "LegoJS",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Built-in Constructors - конструкторы, поставляемые в комплекте со средой выполнения",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Какие бывают виды конструкторов?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "1. ninja\n2. pomidor\n3. site",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "1. ninja\n2. bike\n3. bike",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "1. Error: name is not defined\n2. pomidor\n3. site",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "1. undefined\n2. bike\n3. bike",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что выведет код?",
+      "image": "/src/test/assets/images/image-test-17.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "Наследование",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Частность",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Инкапсуляция",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Полиморфизм",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Какие принципы относятся к основным принципам ООП?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Mетод, используемый для присвоения какого-либо значения инкапсулированному полю",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Метод, позволяющий получить данные, доступ к которым напрямую ограничен",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что такое сеттер?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "undefined",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Person {name: 'John'}",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Person",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "'John’",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "object",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что выведет код?",
+      "image": "/src/test/assets/images/image2-test-17.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "{name: 'Valera', age: 23}",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "{name: 'Valera', age: 23, city: undefined}",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "{name: 'Valera', age: 23, city: 'Amsterdam'}",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что выведет код?",
+      "image": "/src/test/assets/images/image3-test-17.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "Геттер",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Сеттер",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Если свойство предназначено только для чтения, то может быть только …",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "This это возвратное местоимение",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "This - это специальный объект в JS",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Ключевое слово this, используемое в JS, которое имеет особое значение зависящее от контекста, в котором оно применяется",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Что означает ключевое слово \"this\"?",
+      "image": null
+    }
+  ]
+}

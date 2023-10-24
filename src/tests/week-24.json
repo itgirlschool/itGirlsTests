@@ -1,0 +1,303 @@
+{
+  "id": "f91e4637c31f49a59293735f85ddb341",
+  "questions": [
+    {
+      "options": [
+        {
+          "title": "1, 2, 3, 4",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "3, 4",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "1, 2",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "2, 3, 4",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Выберите основные отличия state от props:\n1) Работа с данными;\n2) Роль данных (передача данных, управление внутри компонентов);\n3) Тип;\n4) Начальное значение",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Метод push не сработает, так как применяется к объекту",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Ошибки в данном коде нет",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "state меняется напрямую, а только потом применяется метод для его изменения",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Какую ошибку я допустила в коде, и как её исправить?",
+      "image": "/src/test/assets/images/image-test-24.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "Да",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Можно только onСlick",
+          "isValid": false,
+          "comment": "Можно кликнуть по элементу (onClick) и навести на него мышью (onMouseOver)"
+        },
+        {
+          "title": "Нет",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Можно ли повесить на один элемент несколько обработчиков событий?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "state нельзя изменить",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Использовать метод setState",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Можно обратиться напрямую к state и изменить",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Каким образом можно изменить state?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "false, true",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "false, false",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Попробуйте предсказать, какие сообщения будут в консоли:",
+      "image": "/src/test/assets/images/image2-test-24.png?&width=860"
+    },
+    {
+      "options": [
+        {
+          "title": "Стрелочной функцией",
+          "isValid": true,
+          "comment": "Верно! Правильнее использовать стрелочную функцию, потому что она не имеет контекста и улучшает производительность"
+        },
+        {
+          "title": "Функциональным выражением",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Обычным объявлением функции",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Каким способом лучше всего задать функцию handleChange?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Наличие хуков (захват состояний)",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Классовые компоненты не поддерживают export",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Функциональные компоненты работают медленнее",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Чем отличаются классовые и функциональные компоненты?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Нет",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Да, есть",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Есть только в тех функциональных компонентах, которые вложены в классовый",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Есть ли this в функциональных компонентах?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Да, они не зависимы друг от друга",
+          "isValid": true,
+          "comment": "Верно! Только значения из state должны использоваться при рендеринге, иначе не имеет смысла хранить их в state ."
+        },
+        {
+          "title": "Нет, они будут конфликтовать",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Можно ли использовать props и state одновременно?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Их нельзя задать без команды this.setState",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "В функциональных компонентах",
+          "isValid": true,
+          "comment": "Верно! Для этого используй хук useState"
+        },
+        {
+          "title": "В конструкторе классового компонента",
+          "isValid": true,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Где можно задать state без использования команды this.setState?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Состояние классового компонента может не быть объектом, а функционального - не может",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "Состояние классового компонента обязательно объект, а функционального - не обязательно",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Состояние классового компонента обязательно объект, как и функционального",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Может ли состояние классового компонента не быть объектом? А функционального?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Нет",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Да",
+          "isValid": false,
+          "comment": "В функциональных компонентах состояние можно хранить, используя хук useState"
+        }
+      ],
+      "type": "solo",
+      "title": "Способны ли функциональные компоненты самостоятельно хранить состояние?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "Хуки не используются внутри классового компонента, но можно комбинировать классы и функциональные компоненты с хуками в одном дереве",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Хуки не работают внутри классов, а используются вместо них",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "Также, как и в функциональных",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "multi",
+      "title": "Как использовать хуки в классовых компонентах?",
+      "image": null
+    },
+    {
+      "options": [
+        {
+          "title": "С помощью оператора расширения (…props)",
+          "isValid": false,
+          "comment": ""
+        },
+        {
+          "title": "С помощью defaultProps",
+          "isValid": true,
+          "comment": ""
+        },
+        {
+          "title": "С помощью state",
+          "isValid": false,
+          "comment": ""
+        }
+      ],
+      "type": "solo",
+      "title": "Как задать начальное состояние props, если они ещё не были переданы?",
+      "image": null
+    }
+  ]
+}
