@@ -1,15 +1,14 @@
-import {useEffect} from "react";
 import {Link, useParams} from "react-router-dom";
 import cat from '../../../assets/sientificCat.svg'
 import crystal from '../../../assets/ crystall.svg'
 import smCat from '../../../assets/Gumball.svg'
-import WeeksTest from '../../../tests/allWeeks.json';
+import testsData from '../../../data.js';
 import "./HomePage.scss";
 
 
 const HomePage = () => {
     const {id: testId} = useParams();
-    const week = WeeksTest.filter(item => item.week === testId)[0]
+    const week = testsData.filter(item => item.id === testId)[0]
 
     if (localStorage.getItem('questions')) {
         localStorage.removeItem("questions");

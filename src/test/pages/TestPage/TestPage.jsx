@@ -1,9 +1,9 @@
 import Header from "../../components/Header/Header";
 import TestBody from "../../components/TestBody/TestBody";
-import TestHearts from "../../components/TestHearts/TestHearts";
 import {useEffect, useState} from "react";
 import "./TestPage.scss";
 import {useParams} from "react-router-dom";
+import testsData from "../../../data.js";
 
 const TestPage = () => {
     const {id:testId} = useParams();
@@ -16,24 +16,21 @@ const TestPage = () => {
             return;
         }
         try{
-             import(`/src/tests/${testId}.json`)
-                .then((module) => {
-                    for (const key in module.questions) {
-                        if( Number(key) === 0) {
-                            module.questions[key].focus = true;
-                        }else {
-                            module.questions[key].focus = false;
-                        }
-                    }
-                    setContext({
-                        ...module.default,
-                        weekId: testId,
-                        questions: module.questions,
-                    });
-                    localStorage.setItem('questions', JSON.stringify({ questions: module.questions }));
-                    localStorage.setItem('index', '0');
-                    localStorage.setItem('id', testId);
-                })
+            const test = testsData.find(test => test.id === testId)
+            for (const key in test.questions) {
+                if( Number(key) === 0) {
+                    test.questions[key].focus = true;
+                }else {
+                    test.questions[key].focus = false;
+                }
+            }
+            setContext({
+                weekId: testId,
+                questions: test.questions,
+            });
+            localStorage.setItem('questions', JSON.stringify({ questions: test.questions }));
+            localStorage.setItem('index', '0');
+            localStorage.setItem('id', testId);
         }catch (error) {
             console.log(`Error: ${error}`);
             setError(true);
@@ -53,7 +50,6 @@ const TestPage = () => {
     return (
         <div className='container'>
             <Header questions={context.questions} currentIndex={currentIndex}/>
-            {/*<TestHearts/>*/}
             <TestBody
                 testQuestions={context.questions}
                 setCurrentIndex={setCurrentIndex}
