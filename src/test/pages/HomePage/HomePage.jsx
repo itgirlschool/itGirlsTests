@@ -1,4 +1,5 @@
 import {Link, useParams} from "react-router-dom";
+import {useEffect} from 'react'
 import cat from '../../../assets/sientificCat.svg'
 import crystal from '../../../assets/ crystall.svg'
 import smCat from '../../../assets/Gumball.svg'
@@ -17,17 +18,35 @@ const HomePage = () => {
     }
 
 
+    const getQuestions = async (testId) => {
+        if(localStorage.getItem('questions')) {
+            return;
+        }
+            const test = testsData.find(test => test.id === testId)
+            for (const key in test.questions) {
+                if( Number(key) === 0) {
+                    test.questions[key].focus = true;
+                }else {
+                    test.questions[key].focus = false;
+                }
+            }
+            localStorage.setItem('questions', JSON.stringify({ questions: test.questions }));
+            localStorage.setItem('index', '0');
+            localStorage.setItem('id', testId);
+    }
+
+    useEffect(()=>{
+   getQuestions(testId)
+    },[])
+
+
     return (
         <div className='global-container'>
             <main className='home-container'>
-                <div className='wr-img_cat'>
-                    <img src={cat} alt='cat'/>
-                </div>
                 <div className='wr-home_container'>
                     <div className='greeting_container'>
                         <div className='wr_text-greeting'>
-                            <h2>Приветствую тебя, милая леди, на тесте<br/>
-                                <span>{week.title}</span></h2>
+                            <h2>{week.title}</h2>
                         </div>
                     </div>
                     <div className='instuctions'>
