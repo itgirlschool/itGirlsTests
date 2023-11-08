@@ -3,11 +3,9 @@ import oval from "../../../assets/oval.svg";
 import vector from "../../../assets/Vector.svg";
 import MultiQuestion from "./MultiQuestion.jsx";
 import SoloQuestion from "./SoloQuestion.jsx";
-import Error from "../../pages/Error/Error.jsx";
 import {Button} from "antd";
 import {Link} from "react-router-dom";
 import "./TestBody.scss";
-import ErrTest from "../ErrTest/ErrTest.jsx";
 
 const TestBody = ({testQuestions, setCurrentIndex, currentIndex}) => {
     const [questions, setQuestions] = useState([]);
@@ -46,15 +44,11 @@ const TestBody = ({testQuestions, setCurrentIndex, currentIndex}) => {
         setIsAnswer(null);
     }
 
-    if (!questions.length)  {
-        return null
+    if (!questions.length) {
+        return null;
     }
 
     const currentQuestion = questions.find((item) => item.focus);
-
-    if(!currentQuestion?.title){
-        return <ErrTest/>;
-    }
 
     const testProps = {
         title: currentQuestion.title,
@@ -92,9 +86,9 @@ const TestBody = ({testQuestions, setCurrentIndex, currentIndex}) => {
                             onClick={!isAnswer ? seeRightAnswerOrNot : sendAnswer}
                             disabled={!answer.length}
                         >
-
+                            <img src={vector} alt='vector'/>
                             {!isAnswer ? 'Ответить' : 'Далее'}
-
+                            <img src={oval} alt='oval'/>
                         </Button>
                     )
                 }
