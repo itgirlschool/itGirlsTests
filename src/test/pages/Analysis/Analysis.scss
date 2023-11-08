@@ -3,7 +3,7 @@
 .container_analisys {
   font-family: $family;
   padding: 40px;
-  color: white;
+  color: black;
   @media (max-width: 560px) {
     padding: 20px;
   }
@@ -21,7 +21,7 @@
     padding: 20px;
     background: linear-gradient(225deg, rgba(146, 213, 241, 0.01) 0%, rgba(146, 213, 241, 0.1) 100%);
     box-shadow: 4px 6px 16px 0 rgba(146, 213, 241, 0.08);
-    border: 1px solid var(--text-input, $blueColor);
+    border: 1px solid  $colorPink;
     border-radius: 50px;
 
     ul {
@@ -30,9 +30,9 @@
 
     .title-qustions {
       text-align: center;
-      color: #fff;
+      color: black;
+      font-size: 25px;
       font-family: Rubik, Arial, sans-serif;
-      font-size: 1.2rem;
       font-style: normal;
       font-weight: 700;
       line-height: 19px;
@@ -141,9 +141,9 @@
       background: linear-gradient(
                       218.07deg,
                       rgba(49,212,184,0.84) -8.72%,
-                      rgba(49, 212, 184, 0.01) 79.63%
+                      rgba(49, 212, 184, 0.5) 79.63%
       );
-      border-color: rgba(49, 212, 184, 0.5);
+      border-color: rgba(49, 212, 184, 0.9);
 
       .check {
         margin-left: 10px;
@@ -154,7 +154,7 @@
         border-radius: 50%;
         backdrop-filter: blur(6px);
         background: linear-gradient(225deg, rgba(146, 213, 241, .01), rgba(146, 213, 241, .1));
-        border: 1px solid #31d4b8;
+        border:1px solid $colorPink;
         box-shadow: 0 4px 8px rgba(146, 213, 241, .04), 0 0 2px rgba(146, 213, 241, .06), 0 0 1px rgba(146, 213, 241, .04);
         font-family: Times New Roman, Times, serif;
         @media (max-width: 560px) {
@@ -163,12 +163,12 @@
       }
 
       .check::after {
-        font-size: 25px;
+        font-size: 27px;
         line-height: 45px;
         animation-fill-mode: none;
         animation: none;
         border: none;
-        color: #92d5f1;
+        color: $colorPink;
         content: "✔";
         filter: drop-shadow(0 0 10px #92d5f1);
         height: 100%;
@@ -190,7 +190,7 @@
     justify-content: center;
 
     button {
-      background: linear-gradient(180deg, #FAA0A0 0%, #F74135 16.67%, #F33F33 43.23%, #CC524A 94.27%, #E16D6D 100%);
+      background-color:$colorPink;
       box-shadow: 0px 2px 2px 0px rgba(133, 10, 10, 0.75);
       border-radius: 50px;
       max-width: 254px;

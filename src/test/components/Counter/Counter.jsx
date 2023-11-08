@@ -12,7 +12,9 @@ export default function Counter({questionsLength,countCorrectAnswer}) {
                 text={`${countCorrectAnswer}/${questionsLength}`}
                 strokeWidth={10}
                 styles={buildStyles({
-                    strokeLinecap: "butt"
+                    strokeLinecap: "butt",
+                    pathColor: "rgb(234, 93, 128)",
+                    textColor:'black'
                 })}
             >
                 <RadialSeparators

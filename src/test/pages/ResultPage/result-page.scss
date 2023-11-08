@@ -2,7 +2,7 @@
 
 .result_container {
   margin: 0 20px;
-  height: 100vh;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,18 +10,19 @@
 
   .result_content {
     display: flex;
+    border: 2px solid $colorPink;
+    border-radius:25px;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
     text-align: center;
     padding: 10px;
-    background-image: url("../../../assets/MaskGroup.png");
-    background-repeat: no-repeat;
+    font-family: $family;
+
     background-size: 100%;
     max-width: 488px;
     width: 100%;
-    color: white;
-    min-height: 904px;
+    color: black;
   }
 
   .render_success {
@@ -59,7 +60,7 @@
     flex-direction: column;
 
     button {
-      background: linear-gradient(180deg, #FAA0A0 0%, #F74135 16.67%, #F33F33 43.23%, #CC524A 94.27%, #E16D6D 100%);
+      background-color:$colorPink;
       box-shadow: 0px 2px 2px 0px rgba(133, 10, 10, 0.75);
       border-radius: 50px;
       max-width: 254px;
@@ -84,7 +85,7 @@
     .result_content{
       justify-content: center;
       background-position: center;
-      min-height: 100%;
+      min-height: 95%;
       .render_success{
         font-size: 14px;
         .cat{

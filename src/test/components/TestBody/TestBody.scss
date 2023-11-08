@@ -29,7 +29,7 @@
 
     .test-body-title {
       margin-bottom: 30px;
-      @include mixins.font($bold, $font-18, $whiteColor);
+      @include mixins.font($bold, $font-18, black);
     }
 
     .test-body-imagesBlock {
@@ -60,10 +60,10 @@
 
         width: 100%;
 
-        @include mixins.font($light, $font-18, $blueColor);
+        @include mixins.font($light, $font-18, black);
 
         @media screen and (max-width: 480px) {
-          @include mixins.font($light, $font-16, $blueColor);
+          @include mixins.font($light, $font-16, black);
         }
 
         .test-body-question-img {
@@ -97,7 +97,7 @@
         }
 
         .test-body-question-text {
-          width: 90%;
+          width: 100%;
           @media screen and (max-width: 480px) {
             width: 250px;
           }

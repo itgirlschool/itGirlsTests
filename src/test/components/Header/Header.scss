@@ -13,8 +13,9 @@
 }
 
 .test-header-container {
-  display: flex;
+display: flex;
   justify-content: center;
+  align-items: center;
   gap: 20px;
   max-width: 1920px;
   padding: 43px 80px;
@@ -22,12 +23,16 @@
   @media screen and (max-width: 480px) {
     padding: 23px 43px;
   }
+  .container_progress{
+    flex-basis: 30%;
+  }
 
   .test-header-counter {
-    @include font($light, $font-18, $whiteColor);
+    @include font($light, $font-18, black);
+    color: black!important;
 
     @media screen and (min-width: 769px) and (max-width: 1279px) {
-      @include font($light, $font-20, $whiteColor);
+      @include font($light, $font-20, black);
     }
     @media screen and (min-width: 1920px) {
       @include font($light, $font-24, $whiteColor);

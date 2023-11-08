@@ -1,4 +1,6 @@
-import {ReactComponent as HeartFull} from '../../../assets/empty-heard.svg';
+import {ReactComponent as HeartFull} from '../../../assets/empty-heard.svg'
+
+
 
 const Heart = () => {
     return (

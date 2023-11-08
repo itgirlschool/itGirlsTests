@@ -9,7 +9,7 @@ const Header = ({questions, currentIndex}) => {
     return (
         <div className='test-header-container'>
             <ProgressBar
-                item={currentIndex}
+                item={currentIndex +1}
                 amount={questions.length}
             ></ProgressBar>
             <div className="test-header-counter">

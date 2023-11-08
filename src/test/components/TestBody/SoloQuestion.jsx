@@ -61,7 +61,7 @@ export default function SoloQuestion({
                                 }}
                                 disabled={isAnswer}
                             />
-                            <p className='test-body-question-text'>{option.title}</p>
+                            <p className={`test-body-question-text ${option.isValid? 'red-question' : 'black'}` }>{option.title}</p>
                         </div>
                     )}
                 </div>

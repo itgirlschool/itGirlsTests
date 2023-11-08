@@ -51,7 +51,7 @@ const ResultPage = () => {
                         <div>
                             <h2>Чуть-чуть не хватило,<br/>не унывай!</h2>
                             <h2>Разбери ошибки и поробуй еще раз!</h2>
-                            <img className='cat' src={cat} alt='cat'/>
+                            {/*<img className='cat' src={cat} alt='cat'/>*/}
                         </div>
                     }
 
