@@ -66,6 +66,10 @@
   .main {
     flex-grow: 1;
     background-color: #f2efe6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .footer {
