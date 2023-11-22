@@ -22,7 +22,7 @@
       ],
       "type": "solo",
       "title": "Можно ли задать атрибут компонента key функцией Math.random()?",
-      "image": "/src/test/assets/images/image-test-27.png?&width=860"
+      "image": 0
     },
     {
       "options": [
@@ -103,7 +103,7 @@
       ],
       "type": "solo",
       "title": "В каком порядке выйдут сообщения в консоли?",
-      "image": "/src/test/assets/images/image2-test-27.png?&width=860"
+      "image": 1
     },
     {
       "options": [

@@ -4,13 +4,17 @@ import vector from "../../../assets/Vector.svg";
 import MultiQuestion from "./MultiQuestion.jsx";
 import SoloQuestion from "./SoloQuestion.jsx";
 import {Button} from "antd";
-import {Link} from "react-router-dom";
+import {Link ,useParams} from "react-router-dom";
 import "./TestBody.scss";
+import getImgTest from "../../common/imagesTest.js";
 
 const TestBody = ({testQuestions, setCurrentIndex, currentIndex}) => {
     const [questions, setQuestions] = useState([]);
     const [answer, setAnswer] = useState([]);
     const [isAnswer, setIsAnswer] = useState(null);
+    const  {id} = useParams()
+
+
 
     useEffect(() => {
         if (!testQuestions) return;
@@ -49,22 +53,26 @@ const TestBody = ({testQuestions, setCurrentIndex, currentIndex}) => {
     }
 
     const currentQuestion = questions.find((item) => item.focus);
-
     const testProps = {
         title: currentQuestion.title,
-        imgSrc: currentQuestion.image || '',
+        imgSrc: currentQuestion.image,
         options: currentQuestion.options,
         answer,
         setAnswer,
         isAnswer,
+    }
+    function  renderImg(){
+        if(testProps.imgSrc === null) return
+        const resultIdWeek = id.replace(/-/g, "_");
+        return getImgTest(resultIdWeek,testProps.imgSrc)
     }
 
     return (
         <div className='test-body-container'>
             <div className='test-body-wrapper'>
                 {currentQuestion?.type === 'multi'
-                    ? <MultiQuestion {...testProps} />
-                    : <SoloQuestion {...testProps} />
+                    ? <MultiQuestion {...testProps} renderImg={renderImg} />
+                    : <SoloQuestion {...testProps} renderImg={renderImg} />
                 }
                 {currentIndex === questions.length - 1 && isAnswer
                     ? (

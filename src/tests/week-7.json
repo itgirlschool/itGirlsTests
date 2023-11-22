@@ -27,7 +27,7 @@
       ],
       "type": "solo",
       "title": "Как сделать так, чтобы при просмотре на телефоне текст стал читаемым, а картинка - большой?",
-      "image": "/src/test/assets/images/image-test-7.png?&width=860"
+      "image": 0
     },
     {
       "options": [
@@ -113,7 +113,7 @@
       ],
       "type": "solo",
       "title": "Какой вид верстки использован на картинке? К Какой категории шаблонов он относится?",
-      "image": "/src/test/assets/images/image2-test-7.png?&width=860"
+      "image": 1
     },
     {
       "options": [

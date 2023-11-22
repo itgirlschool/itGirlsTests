@@ -86,7 +86,7 @@
       ],
       "type": "multi",
       "title": "Есть такая страница. Как найти в ней таблицу с id=”age-table” ?",
-      "image": "/src/test/assets/images/image-test-11.png?&width=860"
+      "image": 0
     },
     {
       "options": [
@@ -135,7 +135,7 @@
       ],
       "type": "solo",
       "title": "Есть такая страница. Как найти в ней форму form с именем name=”search”",
-      "image": "/src/test/assets/images/image2-test-11.png?&width=860"
+      "image": 1
     },
     {
       "options": [
@@ -179,7 +179,7 @@
       ],
       "type": "multi",
       "title": "Как можно обнулить (очистить) значение внутри input?",
-      "image": "/src/test/assets/images/image3-test-11.png?&width=860"
+      "image": 2
     },
     {
       "options": [

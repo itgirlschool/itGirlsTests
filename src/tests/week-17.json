@@ -103,7 +103,7 @@
       ],
       "type": "solo",
       "title": "Что выведет код?",
-      "image": "/src/test/assets/images/image-test-17.png?&width=860"
+      "image": 0
     },
     {
       "options": [
@@ -179,7 +179,7 @@
       ],
       "type": "solo",
       "title": "Что выведет код?",
-      "image": "/src/test/assets/images/image2-test-17.png?&width=860"
+      "image": 1
     },
     {
       "options": [
@@ -201,7 +201,7 @@
       ],
       "type": "solo",
       "title": "Что выведет код?",
-      "image": "/src/test/assets/images/image3-test-17.png?&width=860"
+      "image": 2
     },
     {
       "options": [

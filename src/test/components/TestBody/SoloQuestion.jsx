@@ -1,6 +1,7 @@
 import React from "react";
 import { Typography} from "antd";
 import emptyCircle from "../../../assets/empty-circle.svg";
+import  getImgTest from  '../../common/imagesTest.js'
 import "./TestBody.scss";
 
 export default function SoloQuestion({
@@ -10,17 +11,21 @@ export default function SoloQuestion({
      answer,
      setAnswer,
      isAnswer,
+    renderImg
  }) {
+
+
+    console.log(imgSrc !== null)
     return (
         <React.Fragment>
             <div className="question">
                 <Typography.Title level={5} className="test-body-title">
                     {title}
                 </Typography.Title>
-                {imgSrc && (
+                {imgSrc !== null && (
                     <div className="test-body-imagesBlock">
                         <img
-                            src={imgSrc}
+                            src={renderImg()}
                             alt="Картинка к тесту"
                             className="question-image"
                         />

@@ -93,7 +93,7 @@
       ],
       "type": "solo",
       "title": "Как сделать табличку? Параметры: первая колонка 100 пикселей, вторая строчка 30%. Первая строчка высота 200 пикселей, вторая строчка - 100 пикселей.",
-      "image": "/src/test/assets/images/images-test-6.png"
+      "image": 0
     },
     {
       "options": [
@@ -125,7 +125,7 @@
       ],
       "type": "solo",
       "title": "Как сделать такое выравнивание в грид-контейнере?",
-      "image": "/src/test/assets/images/images2-test-6.png?&width=860"
+      "image": 1
     },
     {
       "options": [
@@ -179,7 +179,7 @@
       ],
       "type": "solo",
       "title": "Каким свойством можно задать такое поведение элементов? (Если не отображается см. п.1 доп.материалов)",
-      "image": "/src/test/assets/images/images3-test-6.png?&width=860"
+      "image": 2
     },
     {
       "options": [

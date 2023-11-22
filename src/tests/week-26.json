@@ -22,7 +22,7 @@
       ],
       "type": "solo",
       "title": "Если в данном примере изменить порядок Route таким образом. То какой компонент будет отрисован по адресу /users?",
-      "image": "/src/test/assets/images/image-test-26.png?&width=860"
+      "image": 0
     },
     {
       "options": [
@@ -44,7 +44,7 @@
       ],
       "type": "solo",
       "title": "Какое сообщение появится на экране по адресу ",
-      "image": "/src/test/assets/images/image2-test-26.png?&width=860"
+      "image": 1
     },
     {
       "options": [
@@ -98,7 +98,7 @@
       ],
       "type": "solo",
       "title": "Как бы вы подошли к решению задачи по выводу компонентом <CardList> только тех экземпляров компонента <Card>, цена которых не превышает заданную(Например, 50$)?",
-      "image": "/src/test/assets/images/image3-test-26.png?&width=860"
+      "image": 2
     },
     {
       "options": [

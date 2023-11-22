@@ -4,6 +4,7 @@ import emptyCircle from "../../../assets/empty-circle.svg";
 import infoIcon from "../../../assets/info.svg";
 
 import "./TestBody.scss";
+import getImgTest from "../../common/imagesTest.js";
 
 function MultiQuestion({
   title,
@@ -11,7 +12,7 @@ function MultiQuestion({
   imgSrc,
   answer,
   setAnswer,
-  isAnswer,
+  isAnswer,renderImg
 }) {
     const onChangeCheckbox = (e, option) => {
         const myAnswer = answer.find(elem => elem.title === option.title);
@@ -23,15 +24,14 @@ function MultiQuestion({
             setAnswer([...newAnswer])
         }
     }
-
     return (
         <React.Fragment>
             <div className="question">
                 <Typography.Title level={5} className="test-body-title">{title}</Typography.Title>
-                {imgSrc && (
+                {imgSrc !== null &&(
                     <div className="test-body-imagesBlock">
                         <img
-                            src={imgSrc}
+                            src={renderImg()}
                             alt="Картинка к тесту"
                             className="question-image"
                         />

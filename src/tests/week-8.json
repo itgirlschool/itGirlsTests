@@ -108,7 +108,7 @@
       ],
       "type": "solo",
       "title": "Каким компонентом Bootstrap можно задать такой элемент?",
-      "image": "/src/test/assets/images/image-test-8.png?&width=860"
+      "image": 0
     },
     {
       "options": [
@@ -265,7 +265,7 @@
       ],
       "type": "solo",
       "title": "Что делает код ниже?",
-      "image": "/src/test/assets/images/image2-test-8.png?&width=860"
+      "image": 1
     },
     {
       "options": [
