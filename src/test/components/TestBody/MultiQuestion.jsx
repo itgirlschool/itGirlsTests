@@ -4,7 +4,7 @@ import emptyCircle from "../../../assets/empty-circle.svg";
 import infoIcon from "../../../assets/info.svg";
 
 import "./TestBody.scss";
-import getImgTest from "../../common/imagesTest.js";
+
 
 function MultiQuestion({
   title,

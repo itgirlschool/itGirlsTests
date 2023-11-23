@@ -55,15 +55,18 @@ const TestBody = ({testQuestions, setCurrentIndex, currentIndex}) => {
     const currentQuestion = questions.find((item) => item.focus);
     const testProps = {
         title: currentQuestion.title,
-        imgSrc: currentQuestion.image,
+        imgSrc: currentQuestion.image || null,
         options: currentQuestion.options,
         answer,
         setAnswer,
         isAnswer,
     }
+
     function  renderImg(){
         if(testProps.imgSrc === null) return
+        console.log(testProps.imgSrc)
         const resultIdWeek = id.replace(/-/g, "_");
+        console.log(currentQuestion.image)
         return getImgTest(resultIdWeek,testProps.imgSrc)
     }
 
