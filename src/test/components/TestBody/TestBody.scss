@@ -145,7 +145,7 @@
 
         .test-notes__text {
           margin: 0;
-          @include mixins.font($light, $font-14, $whiteColor)
+          @include mixins.font($light, $font-14, black)
         }
 
         .test-notes__img {
