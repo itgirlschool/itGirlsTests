@@ -30,6 +30,7 @@ export default function SoloQuestion({
                             className="question-image"
                         />
                     </div>
+
                 )}
                 <div className='test-body-questions-container'>
                     {options.map((option, index) =>
@@ -66,7 +67,7 @@ export default function SoloQuestion({
                                 }}
                                 disabled={isAnswer}
                             />
-                            <p className='test-body-question-text'>{option.title}</p>
+                            <label for={`radio-${index}`} className='test-body-question-text'>{option.title}</label>
                         </div>
                     )}
                 </div>
