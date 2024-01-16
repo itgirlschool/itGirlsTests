@@ -82,7 +82,7 @@
       "options": [
         {
           "title": "1. ninja\n2. pomidor\n3. site",
-          "isValid": true,
+          "isValid": false,
           "comment": ""
         },
         {
@@ -91,8 +91,8 @@
           "comment": ""
         },
         {
-          "title": "1. Error: name is not defined\n2. pomidor\n3. site",
-          "isValid": false,
+          "title": "1. undefined\n2. pomidor\n3. site",
+          "isValid": true,
           "comment": ""
         },
         {
