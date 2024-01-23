@@ -53,6 +53,5 @@ const testObjImg = {
 }
 
 export default function getImgTest(numberWeek,indexImg){
-    console.log(indexImg)
     return testObjImg[numberWeek][indexImg]
 }

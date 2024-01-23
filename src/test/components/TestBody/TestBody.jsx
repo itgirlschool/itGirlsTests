@@ -65,7 +65,6 @@ const TestBody = ({testQuestions, setCurrentIndex, currentIndex}) => {
     function  renderImg(){
         if(testProps.imgSrc === null) return
         const resultIdWeek = id.replace(/-/g, "_");
-        console.log(currentQuestion.image)
         return getImgTest(resultIdWeek,testProps.imgSrc)
     }
 

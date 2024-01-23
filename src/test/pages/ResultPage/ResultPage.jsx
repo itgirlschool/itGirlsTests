@@ -11,8 +11,6 @@ const ResultPage = () => {
     const local = JSON.parse(localStorage.getItem('questions'))
     const id = localStorage.getItem('id')
     const navigate = useNavigate()
-
-
     function replayTest() {
         navigate(`/test/${id}`)
         localStorage.clear()
@@ -44,7 +42,7 @@ const ResultPage = () => {
                         <div className="wr-title-success">
                             <h2>Урааа!</h2>
                             <img src={crystal} alt='img'/>
-                            <h2 className="title_success">Ты молодец! <br/> Тест пройден успешно!</h2>
+                            <h2 className="title_success">Ты молодец! <br/> Тест недели номер  {id.slice(5)}  пройден успешно!</h2>
                             <h2>Можешь отправлять скриншот этой странички коту.</h2>
                         </div>
                         :
