@@ -178,7 +178,7 @@
         },
         {
           "title": "При GET запросе данные не защищены; при POST - защищены",
-          "isValid": false,
+          "isValid": true,
           "comment": ""
         },
         {

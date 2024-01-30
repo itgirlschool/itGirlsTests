@@ -215,7 +215,7 @@
         }
       ],
       "type": "solo",
-      "title": "Какой класс выполнит центрирование содержимого по горизонтали?",
+      "title": "Какой класс выполнит центрирование содержимого по вертикали?",
       "image": null
     },
     {
@@ -293,7 +293,7 @@
       "options": [
         {
           "title": "lg, md, sm",
-          "isValid": false,
+          "isValid": true,
           "comment": ""
         },
         {
@@ -303,7 +303,7 @@
         },
         {
           "title": "lg, md, sm, xs",
-          "isValid": true,
+          "isValid": false,
           "comment": ""
         },
         {
