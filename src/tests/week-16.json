@@ -53,7 +53,7 @@
     {
       "options": [
         {
-          "title": "document.forms.myforms",
+          "title": "document.forms.myform",
           "isValid": true,
           "comment": ""
         },

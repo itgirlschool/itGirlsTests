@@ -179,28 +179,6 @@
     {
       "options": [
         {
-          "title": "28",
-          "isValid": true,
-          "comment": ""
-        },
-        {
-          "title": "underfined",
-          "isValid": false,
-          "comment": ""
-        },
-        {
-          "title": "true",
-          "isValid": false,
-          "comment": ""
-        }
-      ],
-      "type": "solo",
-      "title": "Что вернёт код?\nfunction showX(x)\n{ \n\treturn x;\n}\nconsole.log(showX(28));",
-      "image": null
-    },
-    {
-      "options": [
-        {
           "title": "5",
           "isValid": false,
           "comment": ""
