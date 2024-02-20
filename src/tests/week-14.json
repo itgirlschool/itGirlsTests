@@ -346,7 +346,7 @@
         }
       ],
       "type": "solo",
-      "title": "Что выведет следующий код? Вспомните, что вызов fruits.push(…) равнозначен fruits[fruits.length] = … . \n\nlet fruits = [”Яблоко”, “Апельсин”, “Груша”]; fruits.push(”Груша”);"
+      "title": "Что выведет следующий код? Вспомните, что вызов fruits.push(…) равнозначен fruits[fruits.length] = … .   \n\nlet fruits = [”Яблоко”, “Апельсин”, “Груша”]; fruits.push(”Груша”). console.log(fruits.length)"
     },
     {
       "options": [
