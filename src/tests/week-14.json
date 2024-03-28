@@ -352,12 +352,12 @@
       "options": [
         {
           "title": "[10, 50, 88]",
-          "isValid": true,
+          "isValid": false,
           "comment": ""
         },
         {
           "title": "[50, 88]",
-          "isValid": false,
+          "isValid": true,
           "comment": ""
         },
         {
