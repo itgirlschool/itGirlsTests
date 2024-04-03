@@ -1,7 +1,6 @@
 import React from "react";
 import { Typography} from "antd";
 import emptyCircle from "../../../assets/empty-circle.svg";
-import  getImgTest from  '../../common/imagesTest.js'
 import "./TestBody.scss";
 
 export default function SoloQuestion({
@@ -15,7 +14,6 @@ export default function SoloQuestion({
  }) {
 
 
-    console.log(imgSrc !== null)
     return (
         <React.Fragment>
             <div className="question">

@@ -36,6 +36,7 @@ import week_26_4 from '../assets/images/test_26/4.png'
 import week_27_1 from '../assets/images/test_27/1.png'
 import week_27_4 from '../assets/images/test_27/4.png'
 
+import week_28_3 from '../assets/images/test_28/3.png'
 
 const testObjImg = {
     week_6:[test_6_4,test_6_5,test_6_7],
@@ -49,8 +50,10 @@ const testObjImg = {
     week_24:[week_24_2,week_24_5],
     week_25:[week_25_1,week_25_3],
     week_26:[week_26_1,week_26_2,week_26_4],
-    week_27:[week_27_1,week_27_4]
+    week_27:[week_27_1,week_27_4],
+    week_28:['',week_28_3]
 }
+
 
 export default function getImgTest(numberWeek,indexImg){
     return testObjImg[numberWeek][indexImg]
