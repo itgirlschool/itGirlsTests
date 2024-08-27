@@ -91,13 +91,13 @@
     {
       "options": [
         {
-          "title": "nfocus",
-          "isValid": true,
+          "title": "nofocus",
+          "isValid": false,
           "comment": ""
         },
         {
           "title": "onkeydown",
-          "isValid": false,
+          "isValid": true,
           "comment": ""
         },
         {
